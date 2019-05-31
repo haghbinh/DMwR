@@ -10,11 +10,10 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
 ![Image](https://raw.githubusercontent.com/haghbinh/DMwR/master/images/Han.png)
 
 
-```markdown
 #  Chapter 1
 #  Chapter 2
 *  [Loading data into R]()
-```
+
 ### Support or Contact
 Having trouble with Pages?  [haghbinh](https://haghbinh.github.com/) or [contact support](haghbinh@gmail.com) and we’ll help you sort it out.
 
