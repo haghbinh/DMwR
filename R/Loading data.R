@@ -1,0 +1,49 @@
+bank <- read.csv('Datasets/customer_bank_data.csv',h=T)
+head(bank)
+summary(bank)
+
+theUrl <- "https://raw.githubusercontent.com/haghbinh/DMwR/master/Datasets/customer_bank_data.csv"
+bank1 <- read.table(file=theUrl, header=TRUE, sep=",")
+
+#Reading from Databases:
+# Databases arguably store the vast majority of the world’s data. Most of these, whether they
+# be PostgreSQL, MySQL, Microsoft SQL Server or Microsoft Access, can be accessed
+# either through various drivers, typically via an ODBC connection.
+# we use a simple SQLite database though these steps will be similar for most databases. 
+library(RSQLite)
+# To connect to the database we first specify the driver using dbDriver. The function’s
+# main argument is the type of driver, such as “SQLite” or “ODBC.”
+drv <- dbDriver('SQLite')
+# We then establish a connection to the specific database with dbConnect. The first
+# argument is the driver. The most common second argument is the DSN3 connection
+# string for the database, or the path to the file for SQLite databases. Additional arguments
+# are typically the database username, password, host and port.
+con <- dbConnect(drv, 'Datasets/diamonds.db')
+dbListTables(con)
+dbListFields(con, name='diamonds')
+dbListFields(con, name='DiamondColors')
+diamondsTable <- dbGetQuery(con,
+                             "SELECT * FROM diamonds",
+                             stringsAsFactors=FALSE)
+colorTable <- dbGetQuery(con,
+                          "SELECT * FROM DiamondColors",
+                          stringsAsFactors=FALSE)
+longQuery <- "SELECT * FROM diamonds, DiamondColors
+              WHERE 
+              diamonds.color = DiamondColors.Color"
+diamondsJoin <- dbGetQuery(con, longQuery,
+                             stringsAsFactors=FALSE)
+head(diamondsTable)
+head(colorTable)
+head(diamondsJoin)
+
+
+# Getting the Data from the Web
+#  getting the S&P 500  quotes is to use the free service
+# provided by Yahoo finance, which allows you to download a CSV file with
+# the quotes you want.
+library(tseries)
+library(xts)
+GSPC <- as.xts(get.hist.quote("^GSPC",start="1998-01-01",
+                                quote=c("Open","High","Low","Close","Volume","Adjusted")))
+head(GSPC)

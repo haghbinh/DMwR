@@ -1,0 +1,18 @@
+---
+title: "Loading data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Reading data from .CSV (or .TXT) files
+
+```{r bank1}
+bank <- read.csv('Datasets/customer_bank_data.csv',header = TRUE)
+head(bank)
+```
+```{r bank2}
+summary(bank)
+```
