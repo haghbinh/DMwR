@@ -5,7 +5,7 @@
 
 You can use the [This website](https://github.com/haghbinh/DMwR/edit/master/README.md) to preview the content files.
 
-[Image](https://github.com/haghbinh/DMwR/images/Han.jpg)
+![Image](https://github.com/haghbinh/DMwR/images/Han.png)
 ## The Book Slides can be find here
 
 
