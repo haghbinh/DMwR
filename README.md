@@ -4,13 +4,14 @@
 ### Shiraz
 
 You can use the [This website](https://haghbinh.github.io/DMwR) to preview the content files.
-``` 
+
+
 ## The reference book:
 
 ![Image](https://raw.githubusercontent.com/haghbinh/DMwR/master/images/Han.png)
 
 ## [The Book Slides can be find here](https://hanj.cs.illinois.edu/bk3/bk3_slidesindex.htm)
-```
+
 
 ### Support or Contact
 
