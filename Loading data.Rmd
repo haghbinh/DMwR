@@ -7,7 +7,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Reading data from .CSV (or .TXT) files
+## 1. Reading data from .CSV (or .TXT) files
 
 ```{r bank1}
 bank <- read.csv('Datasets/customer_bank_data.csv',header = TRUE)
@@ -19,7 +19,7 @@ theUrl <- "https://raw.githubusercontent.com/haghbinh/DMwR/master/Datasets/custo
 bank1 <- read.table(file=theUrl, header=TRUE, sep=",")
 ```
 
-## Reading from Databases:
+## 2. Reading from Databases:
 Databases arguably store the vast majority of the world’s data. Most of these, whether they
 be PostgreSQL, MySQL, Microsoft SQL Server or Microsoft Access, can be accessed
 either through various drivers, typically via an ODBC connection.
@@ -57,7 +57,7 @@ head(colorTable)
 head(diamondsJoin)
 ```
 
-## Getting the Data from the Web
+## 3. Getting the Data from the Web
 Getting the S&P 500  quotes is to use the free service
  provided by Yahoo finance, which allows you to download a CSV file with
  the quotes you want.

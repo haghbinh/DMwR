@@ -5,5 +5,9 @@ output:
     fig_width: 5
     fig_height: 5
     dev: jpeg
+<<<<<<< HEAD
 ---
 # Test
+=======
+---
+>>>>>>> acd37d4588d27a7397770218437c9817d12de6d2
