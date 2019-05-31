@@ -1,0 +1,76 @@
+---
+title: "Principal Components Analysis for Data Reduction"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Semeion Handwritten Digit
+-----------------------------------------------------<br />
+Data Set Characteristics: Multivariate<br />
+Number of Instances: 1593<br />
+Area: Computer<br />
+Attribute Characteristics: Integer<br />
+Number of Attributes: 256<br />
+Date Donated: 2008-11-11<br />
+Associated Tasks: Classification<br />
+Missing Values? N/A<br />
+-----------------------------------------------------
+###Source
+The dataset was created by Tactile Srl, Brescia, Italy 
+<http://www.tattile.it/> and donated in 1994 to Semeion Research Center of Sciences of Communication, Rome, Italy <http://www.semeion.it/>, for machine learning research.
+
+### Data Set Information:
+1593 handwritten digits from around 80 persons were scanned, stretched in a rectangular box 16x16 in a gray scale of 256 values.Then each pixel of each image was scaled into a bolean (1/0) value using a fixed 
+threshold.
+Each person wrote on a paper all the digits from 0 to 9, twice. The commitment was to write the digit the first time in the normal way 
+(trying to write each digit accurately) and the second time in a fast 
+way (with no accuracy).
+
+The best validation protocol for this dataset seems to be a 5x2CV, 50% Tune (Train +Test) and completly blind 50% Validation.
+
+-----------------------------------------------------
+
+### Attribute Information:
+This dataset consists of 1593 records (rows) and 256 attributes 
+(columns).
+Each record represents a handwritten digit, orginally scanned with a 
+resolution of 256 grays scale (28).
+Each pixel of the each original scanned image was first stretched, and 
+after scaled between 0 and 1 (setting to 0 every pixel whose value was 
+under tha value 127 of the grey scale (127 included) and setting to 1 
+each pixel whose orinal value in the grey scale was over 127).
+Finally, each binary image was scaled again into a 16x16 square box (the 
+final 256 binary attributes). 
+
+-----------------------------------------------------
+
+### Relevant Papers:
+*M Buscema, MetaNet: The Theory of Independent Judges, in Substance Use & Misuse 33(2)1998, pp 439-461.*
+
+
+```{r bank1, message=FALSE, warning=FALSE}
+library(imager)
+Digit <- read.table("Datasets/Digit.txt",header=TRUE)
+dim(Digit)
+img <- Digit[,-(257:266)]
+Y <- apply(Digit[,257:266],1,function(x) sum(x*(0:9)))
+i <- 81
+im <- as.cimg(matrix((as.numeric(img[i,])),nr=16))
+plot(im)
+pca <- prcomp(img,scale =F )
+dim(pca$x)
+plot(pca)
+pairs(pca$x[,1:4],col=Y,pch=19)
+```
+```{r digit2, message=FALSE, warning=FALSE}
+plot(pca$x[1:100,1:2],col=Y,pch=19)
+identify(pca$x[1:100,1])
+im90 <- as.cimg(matrix((as.numeric(img[90,])),nr=16))
+im96 <- as.cimg(matrix((as.numeric(img[96,])),nr=16))
+par(mfrow=c(1,2))
+plot(im90,main='image=90')
+plot(im96,main='image=96')
+```
