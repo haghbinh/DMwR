@@ -10,11 +10,12 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
 ![Image](https://raw.githubusercontent.com/haghbinh/DMwR/master/images/Han.png)
 
 
-#  Chapter 1
-#  Chapter 2
+##  Chapter 1
+##  Chapter 2
   *  **[Loading data into R](https://haghbinh.github.io/DMwR/html/Loading_data.html)**
-
-### Support or Contact
+##  Chapter 3
+##  Chapter 4
+#### Support or Contact
 Having trouble with Pages?  [haghbinh](https://haghbinh.github.com/) or [contact support](haghbinh@gmail.com) and we’ll help you sort it out.
 
 
