@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 bank <- read.csv('Datasets/customer_bank_data.csv',header = TRUE)
 head(bank)
 ```
+<<<<<<< HEAD
 A flie can also be downloaded from a URL:
 ```{r bank3}
 theUrl <- "https://raw.githubusercontent.com/haghbinh/DMwR/master/Datasets/customer_bank_data.csv"
@@ -67,4 +68,7 @@ library(xts)
 GSPC <- as.xts(get.hist.quote("^GSPC",start="1998-01-01",
                                 quote=c("Open","High","Low","Close","Volume","Adjusted")))
 head(GSPC)
+=======
+```{r bank2}
+summary(bank)
 ```
