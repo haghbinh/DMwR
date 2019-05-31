@@ -6,7 +6,7 @@
 You can use the [This website](https://github.com/haghbinh/DMwR/edit/master/README.md) to preview the content files.
 
 ```Reference
-![Image](http://s8.picofile.com/file/8362151126/Han.jpg)
+![Image](images/Han.jpg)
 ## The Book Slides can be find here
 ```
 
