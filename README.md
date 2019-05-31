@@ -9,6 +9,7 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
 ## 1. Introduction
 ## 2. Getting to Know Your Data
  * [Loading data into R](https://haghbinh.github.io/DMwR/html/Loading_data.html)
+ * [Basic Statistical Descriptions of Data](https://haghbinh.github.io/DMwR/html/Statistical_Descriptions.html) 
  * [PCA for Data Reduction](https://haghbinh.github.io/DMwR/html/Dimension_Reduction.html)
 ##  3. Data Preprocessing 
 #### Support or Contact
