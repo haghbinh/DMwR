@@ -3,9 +3,9 @@
 ### May 2019 
 ### Shiraz
 
-You can use the [This website](https://github.com/haghbinh/DMwR/edit/master/README.md) to preview the content files.
+You can use the [This website](https://haghbinh.github.io/DMwR) to preview the content files.
 
-![Image](https://haghbin.github.com/DMwR/images/Han.png)
+![Image](https://github.com/haghbinh/DMwR/images/Han.png)
 ## The Book Slides can be find here
 
 
