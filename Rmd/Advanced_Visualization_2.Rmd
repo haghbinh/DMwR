@@ -1,0 +1,82 @@
+---
+title: "2.3 Advanced Data Visualization"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 2- Create Interactive Web Graphics via 'plotly'
+### Reference: <https://plot.ly/r>
+
+### US economic time series
+```{r p1, echo=TRUE, message=FALSE, warning=FALSE}
+library(plotly)
+data("economics")
+head(economics)
+attach(economics)
+```
+
+#### Description
+This dataset was produced from US economic time series data available from <http://research.stlouisfed.org/fred2>. economics is in "wide" format, economics_long is in "long" format.
+
+## Line (Time series) plots
+```{r p2, echo=TRUE, message=FALSE, warning=FALSE}
+plot_ly (
+  x = date,
+  y = unemploy,
+  type = 'scatter',
+  mode = 'lines' )
+```
+
+## Scatter plots
+```{r p3, echo=TRUE, message=FALSE, warning=FALSE}
+p <- plot_ly (
+      x = pce,
+      y = unemploy,
+      type = 'scatter',
+      mode = 'markers')
+p
+add_paths(p)
+```
+
+```{r p4, echo=TRUE, message=FALSE, warning=FALSE}
+plot_ly(x = date, y = uempmed, color = I("red"), 
+        showlegend = FALSE) %>% add_lines() %>% add_markers(color=pop)
+plot_ly(x = date,y = uempmed) %>% add_ribbons(ymin = pce - 1e3, ymax = pce + 1e3)
+```
+
+Use **group_by()** to apply visual mapping once per group (e.g. one line per group)
+
+```{r p5, echo=TRUE, message=FALSE, warning=FALSE}
+data(txhousing)
+head(txhousing)
+txhousing %>%
+group_by(txhousing$city) %>%
+plot_ly(x = txhousing$date, y = txhousing$median) %>%
+add_lines(color = txhousing$city)
+```
+
+```{r p6, echo=TRUE, message=FALSE, warning=FALSE}
+x <- c(1, 2, 2, 1, 1, 2)
+y <- c(1, 2, 2, 1, 1, 2)
+z <- c(1, 1, 2, 2, 3, 3)
+df <- data.frame(x = x,y = y,z = z)
+plot_ly(df) %>% add_markers(x = 1.5, y = 1.5) %>% add_markers(x = x, y = y,frame = z)
+```
+
+```{r p7, echo=TRUE, message=FALSE, warning=FALSE}
+p <- plot_ly(economics[1:20,]) %>% add_markers(x = ~pop,y = ~unemploy,size = ~psavert,color=~uempmed)
+colorbar(p, len = 0.5)
+```
+
+## Boxplots Plots in plotly
+```{r p8, echo=TRUE, message=FALSE, warning=FALSE}
+plot_ly(midwest, x = ~percollege, color = ~state, type = "box")
+```
+
+## 3D Plots in plotly
+```{r p9, echo=TRUE, message=FALSE, warning=FALSE}
+plot_ly(z = ~volcano) %>% add_surface() 
+```

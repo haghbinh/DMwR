@@ -1,0 +1,77 @@
+---
+title: "2.3 Advanced Data Visualization"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 1- Using ggplot2 
+### Reference:
+[*] Wickham, H. (2016). ggplot2: elegant graphics for data analysis. Springer.<br />
+Download link: <http://moderngraphics11.pbworks.com/f/ggplot2-Book09hWickham.pdf>
+
+ggplot2 is an R package for producing statistical, or data, graphics, but it is unlike most other graphics packages because it has a deep underlying grammar. This grammar, based on the Grammar of Graphics (Wilkinson, 2005), is composed of a set of independent components that can be composed in many different ways. This makes ggplot2 very powerful, because you are not limited to a set of pre-specified graphics, but you can create new graphics that are precisely tailored for your problem. This may sound overwhelming, but because there is a simple set of core principles and very few special cases, ggplot2 is also easy to learn (although it may take a little time to forget your preconceptions from other graphics tools).
+
+## What is the grammar of graphics?
+Wilkinson (2005) created the grammar of graphics to describe the deep features that underlie all statistical graphics. The grammar of graphics is an answer to a question: what is a statistical graphic? The layered grammar of graphics
+(Wickham, 2009) builds on Wilkinson’s grammar, focussing on the primacy of layers and adapting it for embedding within R. In brief, the grammar tells us that a statistical graphic is a mapping from data to aesthetic attributes
+(colour, shape, size) of geometric objects (points, lines, bars). The plot may also contain statistical transformations of the data and is drawn on a specific coordinate system. Faceting can be used to generate the same plot for different subsets of the dataset. It is the combination of these independent components that make up a graphic.
+
+## Getting started with qplot
+qplot(), short for quick plot. qplot has been designed to be very similar to plot.
+```{r d1, message=FALSE, warning=FALSE}
+library(ggplot2)
+set.seed(1410) # Make the sample reproducible
+dsmall <- diamonds[sample(nrow(diamonds), 100), ]
+head(diamonds)
+qplot(log(carat), log(price), data = diamonds)
+```
+### Colour, size, shape and other aesthetic attributes
+The first big difference when using qplot instead of plot comes when you want to assign colours—or sizes or shapes—to the points on your plot. With plot, it’s your responsibility to convert a categorical variable in your data
+(e.g., “apples”, “bananas”, “pears”) into something that plot knows how to use (e.g., “red”, “yellow”, “green”). qplot can do this for you automatically, and it will automatically provide a legend that maps the displayed attributes
+to the data values. This makes it easy to include additional data on the plot. 
+```{r d2, message=FALSE, warning=FALSE}
+qplot(carat, price, data = dsmall, colour = color)
+qplot(carat, price, data = dsmall, shape = cut)
+qplot(carat, price, data = diamonds, alpha = I(1/200))
+```
+
+### Plot geoms
+qplot is not limited to scatterplots, but can produce almost any kind of plot by varying the geom.
+
+* **geom = "point"** draws points to produce a scatterplot. This is the default when you supply both x and y arguments to qplot().
+* **geom = "smooth"** fits a smoother to the data and displays the smooth and its standard error.
+* **geom = "boxplot"** produces a box-and-whisker plot to summarise the distribution of a set of points.
+* **geom = "path"** and geom = "line" draw lines between the data points.
+* For continuous variables, **geom = "histogram"** draws a histogram, **geom ="freqpoly"** a frequency polygon, and **geom = "density"** creates a density plot.
+* For discrete variables, **geom = "bar"** makes a bar chart.
+```{r d3, message=FALSE, warning=FALSE}
+qplot(carat, price, data = dsmall, geom = c("point", "smooth"))
+qplot(carat, price, data = diamonds, geom = c("point", "smooth"))
+```
+
+If you want to turn the confidence interval off, use se = FALSE. The
+wiggliness of the line is controlled by the span parameter, which ranges
+from 0 (exceedingly wiggly) to 1 (not so wiggly)
+```{r d4, message=FALSE, warning=FALSE}
+qplot(carat, price, data = dsmall, geom = c("point", "smooth"),span = 0.2)
+```
+
+```{r d5, message=FALSE, warning=FALSE}
+qplot(carat, data = diamonds, geom = "histogram")
+qplot(carat, data = diamonds, geom = "density")
+qplot(carat, data = diamonds, geom = "density", colour = color)
+```
+
+### Time series with line and path plots
+```{r d6, message=FALSE, warning=FALSE}
+qplot(date, unemploy / pop, data = economics, geom = "line")
+```
+
+### Saving your plots
+#```{r d6, message=FALSE, warning=FALSE}
+#ggsave("plot0.png", width = 5, height = 5)
+#unlink("plot0.png")
+#```
