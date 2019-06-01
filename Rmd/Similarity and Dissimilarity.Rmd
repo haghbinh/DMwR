@@ -1,0 +1,75 @@
+---
+title: "Similarity and Dissimilarity"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Dissimilarity Measures for Nominal Attributes
+“Gower's distance” is chosen by metric "gower" or automatically if some columns of x are not numeric. Also known as Gower's coefficient (1971), expressed as a dissimilarity, this implies that a particular standardisation will be applied to each variable, and the “distance” between two units is the sum of all the variable-specific distances
+```{r s0}
+library(cluster)
+x1 <- c('a','b','a','a')
+x2 <- c('y','x','x','x')
+x3 <- c('e','q','e','q')
+x4 <- c('z','z','z','n')
+D0 <- data.frame(x1=x1,x2=x2,x3=x3,x4=x4)
+d <- daisy(D0,metric = "gower")
+as.matrix(d)
+```
+
+## Dissimilarity Measures for Binary Attributes
+```{r s1}
+library(proxy)
+x <- matrix(sample(c(FALSE, TRUE), 8, rep = TRUE), ncol = 2)
+x
+d <- dist(x, method = "Jaccard")
+as.matrix(d)
+```
+
+This is the same but less efficient
+```{r s2}
+as.matrix(stats::dist(x, method = "binary"))
+```
+
+### Similarity Matrix
+```{r s3}
+s <- simil(x, method = "Jaccard")
+as.matrix(s)
+```
+
+## Dissimilarity of Numeric Data: Minkowski Distance
+#### Euclidean distance:
+```{r s4}
+D <- iris[sample(1:150,5),-5]
+d2 <- dist(D)
+as.matrix(d2)
+d3 <- stats::dist(D,p=3)
+as.matrix(d3)
+```
+
+#### Euclidean distance(Another way):
+```{r s5}
+d4 <- daisy(D)
+as.matrix(d4)
+```
+
+#### Manhattan distance:
+```{r s6}
+d5 <- daisy(D, metric = 'manhattan')
+as.matrix(d5)
+```
+
+## Dissimilarity for Attributes of Mixed Types
+```{r s7}
+D1 <- iris[sample(1:150,5),]
+D1
+d6 <- daisy(D1, metric = 'gower')
+as.matrix(d6)
+```
+
+## Cosine Similarity
+See the following link for application Cosine Similarity in documents similarity:<br />
+<http://text2vec.org/similarity.html#jaccard_similarity>
