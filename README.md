@@ -1,6 +1,7 @@
 Supported files and codes for the course
 # Data Mining With R
-May 2019 Shiraz
+## By: Hossein Haghbin
+May 2019 Shiraz<br />
 You can use the [This website](https://haghbinh.github.io/DMwR) to preview the content files.
 ## Reference:
 ### Data Mining Concepts and Techniques
