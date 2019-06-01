@@ -9,6 +9,7 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
 ## 1. Introduction
 ## 2. Getting to Know Your Data
  * [Loading data into R](https://haghbinh.github.io/DMwR/html/Loading_data.html)
+  * [Hand writing dataset](https://raw.githubusercontent.com/haghbinh/DMwR/master/Datasets/Digit.txt)
  * [Basic Statistical Descriptions of Data](https://haghbinh.github.io/DMwR/html/Statistical_Descriptions.html) 
  * [Advanced_Data Visualization: ggplot2](https://haghbinh.github.io/DMwR/html/Advanced_Visualization_1.html) 
  * [Advanced_Data Visualization: plotly](https://haghbinh.github.io/DMwR/html/Advanced_Visualization_2.html) 
