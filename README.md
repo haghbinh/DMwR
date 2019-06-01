@@ -10,8 +10,11 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
 ## 2. Getting to Know Your Data
  * [Loading data into R](https://haghbinh.github.io/DMwR/html/Loading_data.html)
  * [Basic Statistical Descriptions of Data](https://haghbinh.github.io/DMwR/html/Statistical_Descriptions.html) 
- * [PCA for Data Reduction](https://haghbinh.github.io/DMwR/html/Dimension_Reduction.html)
+ * [Advanced_Data Visualization: ggplot2](https://haghbinh.github.io/DMwR/html/Advanced_Visualization_1.html) 
+ * [Advanced_Data Visualization: plotly](https://haghbinh.github.io/DMwR/html/Advanced_Visualization_2.html) 
 ##  3. Data Preprocessing 
+ * [PCA for Data Reduction](https://haghbinh.github.io/DMwR/html/Dimension_Reduction.html)
+
 #### Support or Contact
 Having trouble with Pages?  [haghbinh](https://haghbinh.github.com/) or [contact support](haghbinh@gmail.com) and we’ll help you sort it out.
 
