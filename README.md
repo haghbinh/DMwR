@@ -9,7 +9,7 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
 [The Book Slides can be find here](https://hanj.cs.illinois.edu/bk3/bk3_slidesindex.htm)
 ## 1. Introduction
 ## 2. Getting to Know Your Data
- * [Loading data into R](https://haghbinh.github.io/DMwR/html/2 Getting to Know Your Data/Loading_data.html)
+ * [Loading data into R](https://haghbinh.github.io/DMwR/html/2_Getting_to_Know_Your_Data/Loading_data.html)
  * [Basic Statistical Descriptions of Data](https://haghbinh.github.io/DMwR/html/2_Getting_to_Know_Your_Data/Statistical_Descriptions.html) 
  * [Advanced_Data Visualization: ggplot2](https://haghbinh.github.io/DMwR/html/2_Getting_to_Know_Your_Data/Advanced_Visualization_1.html) 
  * [Advanced_Data Visualization: plotly](https://haghbinh.github.io/DMwR/html/2_Getting_to_Know_Your_Data/Advanced_Visualization_2.html)
