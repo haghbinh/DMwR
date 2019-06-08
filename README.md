@@ -16,7 +16,7 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
  * [Measuring Data Similarity and Dissimilarity](https://haghbinh.github.io/2_Getting_to_Know_Your_Data/DMwR/html/Similarity_and_Dissimilarity.html) 
 ##  3. Data Preprocessing 
  * [Data Cleaning](https://haghbinh.github.io/DMwR/html/3_Data_Preprocessing/3-2_Data_Cleaning.html)
- * [Data Cleaning](https://haghbinh.github.io/DMwR/html/3_Data_Preprocessing/3-3_Data_Integration.html)
+ * [Data Integration](https://haghbinh.github.io/DMwR/html/3_Data_Preprocessing/3-3_Data_Integration.html)
  * [PCA for Data Reduction(Digit Recognition Example)](https://haghbinh.github.io/DMwR/html/3_Data_Preprocessing/3-4_Dimension_Reduction.html)
 
 #### Support or Contact
