@@ -18,6 +18,7 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
  * [Data Cleaning](https://haghbinh.github.io/DMwR/html/3_Data_Preprocessing/3-2_Data_Cleaning.html)
  * [Data Integration](https://haghbinh.github.io/DMwR/html/3_Data_Preprocessing/3-3_Data_Integration.html)
  * [PCA for Data Reduction(Digit Recognition Example)](https://haghbinh.github.io/DMwR/html/3_Data_Preprocessing/3-4_Dimension_Reduction.html)
+ * [Data Transformation](https://haghbinh.github.io/DMwR/html/3_Data_Preprocessing/3_5_Data_Transformation.html)
 
 #### Support or Contact
 Having trouble with Pages?  [haghbinh](https://haghbinh.github.com/) or [contact support](haghbinh@gmail.com) and we’ll help you sort it out.
