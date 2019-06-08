@@ -1,0 +1,26 @@
+---
+title: "Data_Transformation"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Z-score normalization
+Normally, to create z-scores (standardized scores) from a variable, you would subtract the mean of all data points from each individual data point, then divide those points by the standard deviation of all points. Again, this can be accomplished in one call using scale().
+
+```{r dt 1}
+D <- read.table(file="Datasets/sp500.csv",h=T)
+head(D)
+D1 <- scale(D[2:7])
+head(D1)
+```
+
+## Min-max normalization
+```{r dt 23}
+mi <- apply(D[,2:7],2,min)
+ma <- apply(D[,2:7],2,max)
+D2 <- scale(D[2:7],center = mi,scale = (ma-mi))
+head(D2)
+```
