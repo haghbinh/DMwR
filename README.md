@@ -9,13 +9,15 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
 [The Book Slides can be find here](https://hanj.cs.illinois.edu/bk3/bk3_slidesindex.htm)
 ## 1. Introduction
 ## 2. Getting to Know Your Data
- * [Loading data into R](https://haghbinh.github.io/DMwR/html/Loading_data.html)
- * [Basic Statistical Descriptions of Data](https://haghbinh.github.io/DMwR/html/Statistical_Descriptions.html) 
- * [Advanced_Data Visualization: ggplot2](https://haghbinh.github.io/DMwR/html/Advanced_Visualization_1.html) 
- * [Advanced_Data Visualization: plotly](https://haghbinh.github.io/DMwR/html/Advanced_Visualization_2.html)
- * [Measuring Data Similarity and Dissimilarity](https://haghbinh.github.io/DMwR/html/Similarity_and_Dissimilarity.html) 
+ * [Loading data into R](https://haghbinh.github.io/DMwR/html/2 Getting to Know Your Data/Loading_data.html)
+ * [Basic Statistical Descriptions of Data](https://haghbinh.github.io/DMwR/html/2 Getting to Know Your Data/Statistical_Descriptions.html) 
+ * [Advanced_Data Visualization: ggplot2](https://haghbinh.github.io/DMwR/html/2 Getting to Know Your Data/Advanced_Visualization_1.html) 
+ * [Advanced_Data Visualization: plotly](https://haghbinh.github.io/DMwR/html/2 Getting to Know Your Data/Advanced_Visualization_2.html)
+ * [Measuring Data Similarity and Dissimilarity](https://haghbinh.github.io/2 Getting to Know Your Data/DMwR/html/Similarity_and_Dissimilarity.html) 
 ##  3. Data Preprocessing 
- * [PCA for Data Reduction(Digit Recognition Example)](https://haghbinh.github.io/DMwR/html/Dimension_Reduction.html)
+ * [Data Cleaning](https://haghbinh.github.io/DMwR/html/3 Data Preprocessing/3-2 Data_Cleaning.html)
+ * [Data Cleaning](https://haghbinh.github.io/DMwR/html/3 Data Preprocessing/3-3_Data_Integration.html)
+ * [PCA for Data Reduction(Digit Recognition Example)](https://haghbinh.github.io/DMwR/html/3 Data Preprocessing/3-4 Dimension_Reduction.html)
 
 #### Support or Contact
 Having trouble with Pages?  [haghbinh](https://haghbinh.github.com/) or [contact support](haghbinh@gmail.com) and we’ll help you sort it out.
