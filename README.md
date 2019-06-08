@@ -13,7 +13,7 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
  * [Basic Statistical Descriptions of Data](https://haghbinh.github.io/DMwR/html/2_Getting_to_Know_Your_Data/Statistical_Descriptions.html) 
  * [Advanced_Data Visualization: ggplot2](https://haghbinh.github.io/DMwR/html/2_Getting_to_Know_Your_Data/Advanced_Visualization_1.html) 
  * [Advanced_Data Visualization: plotly](https://haghbinh.github.io/DMwR/html/2_Getting_to_Know_Your_Data/Advanced_Visualization_2.html)
- * [Measuring Data Similarity and Dissimilarity](https://haghbinh.github.io/2_Getting_to_Know_Your_Data/DMwR/html/Similarity_and_Dissimilarity.html) 
+ * [Measuring Data Similarity and Dissimilarity](https://haghbinh.github.io/DMwR/html/2_Getting_to_Know_Your_Data/Similarity_and_Dissimilarity.html) 
 ##  3. Data Preprocessing 
  * [Data Cleaning](https://haghbinh.github.io/DMwR/html/3_Data_Preprocessing/3-2_Data_Cleaning.html)
  * [Data Integration](https://haghbinh.github.io/DMwR/html/3_Data_Preprocessing/3-3_Data_Integration.html)
