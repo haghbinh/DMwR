@@ -1,0 +1,1025 @@
+admin_description,area_name,area_code,weekly_payment_gross,weekly_payment_gross_CV
+ualad09:Darlington,Darlington,E06000005,479.1,5.5
+ualad09:County Durham,County Durham,E06000047,476.7,3.0
+ualad09:Hartlepool,Hartlepool,E06000001,462.1,5.6
+ualad09:Middlesbrough,Middlesbrough,E06000002,437.7,4.4
+ualad09:Northumberland,Northumberland,E06000048,487.5,4.2
+ualad09:Redcar and Cleveland,Redcar and Cleveland,E06000003,477.6,7.9
+ualad09:StocktononTees,StocktononTees,E06000004,509.9,4.5
+ualad09:Gateshead,Gateshead,E08000020,495.2,4.8
+ualad09:Newcastle upon Tyne,Newcastle upon Tyne,E08000021,484.1,4.5
+ualad09:North Tyneside,North Tyneside,E08000022,461.8,4.5
+ualad09:South Tyneside,South Tyneside,E08000023,464.4,6.1
+ualad09:Sunderland,Sunderland,E08000024,456.5,3.9
+ualad09:Blackburn with Darwen,Blackburn with Darwen,E06000008,454.1,7.0
+ualad09:Blackpool,Blackpool,E06000009,386.9,5.4
+ualad09:Cheshire East,Cheshire East,E06000049,541.8,4.1
+ualad09:Cheshire West and Chester,Cheshire West and Chester,E06000050,526.6,5.2
+ualad09:Halton,Halton,E06000006,458.5,5.8
+ualad09:Warrington,Warrington,E06000007,518.4,5.8
+ualad09:Allerdale,Allerdale,E07000026,511.0,6.8
+ualad09:BarrowinFurness,BarrowinFurness,E07000027,517.9,9.7
+ualad09:Carlisle,Carlisle,E07000028,439.5,6.2
+ualad09:Copeland,Copeland,E07000029,719.2,9.0
+ualad09:Eden,Eden,E07000030,409.6,10.0
+ualad09:South Lakeland,South Lakeland,E07000031,493.5,7.3
+ualad09:Bolton,Bolton,E08000001,444.1,4.2
+ualad09:Bury,Bury,E08000002,496.1,5.0
+ualad09:Manchester,Manchester,E08000003,467.9,3.3
+ualad09:Oldham,Oldham,E08000004,455.0,4.0
+ualad09:Rochdale,Rochdale,E08000005,468.1,5.9
+ualad09:Salford,Salford,E08000006,465.8,3.3
+ualad09:Stockport,Stockport,E08000007,520.1,4.1
+ualad09:Tameside,Tameside,E08000008,431.8,5.0
+ualad09:Trafford,Trafford,E08000009,568.6,5.3
+ualad09:Wigan,Wigan,E08000010,481.9,3.5
+ualad09:Burnley,Burnley,E07000117,439.9,7.9
+ualad09:Chorley,Chorley,E07000118,490.0,6.0
+ualad09:Fylde,Fylde,E07000119,578.0,8.9
+ualad09:Hyndburn,Hyndburn,E07000120,425.0,7.3
+ualad09:Lancaster,Lancaster,E07000121,482.4,8.0
+ualad09:Pendle,Pendle,E07000122,460.8,6.7
+ualad09:Preston,Preston,E07000123,448.8,6.2
+ualad09:Ribble Valley,Ribble Valley,E07000124,532.5,9.2
+ualad09:Rossendale,Rossendale,E07000125,432.0,11.0
+ualad09:South Ribble,South Ribble,E07000126,486.9,7.2
+ualad09:West Lancashire,West Lancashire,E07000127,500.0,6.2
+ualad09:Wyre,Wyre,E07000128,484.9,7.5
+ualad09:Knowsley,Knowsley,E08000011,463.6,6.2
+ualad09:Liverpool,Liverpool,E08000012,493.4,3.3
+ualad09:Sefton,Sefton,E08000014,499.0,4.3
+ualad09:St. Helens,St. Helens,E08000013,473.7,5.1
+ualad09:Wirral,Wirral,E08000015,497.8,4.3
+ualad09:East Riding of Yorkshire,East Riding of Yorkshire,E06000011,524.7,4.7
+"ualad09:Kingston upon Hull, City of","Kingston upon Hull, City of",E06000010,431.6,3.3
+ualad09:North East Lincolnshire,North East Lincolnshire,E06000012,467.8,5.5
+ualad09:North Lincolnshire,North Lincolnshire,E06000013,534.2,5.1
+ualad09:York,York,E06000014,478.7,6.1
+ualad09:Craven,Craven,E07000163,460.8,7.2
+ualad09:Hambleton,Hambleton,E07000164,467.5,11.0
+ualad09:Harrogate,Harrogate,E07000165,486.2,6.2
+ualad09:Richmondshire,Richmondshire,E07000166,478.5,11.0
+ualad09:Ryedale,Ryedale,E07000167,424.8,9.4
+ualad09:Scarborough,Scarborough,E07000168,490.3,6.5
+ualad09:Selby,Selby,E07000169,534.6,8.6
+ualad09:Barnsley,Barnsley,E08000016,486.7,4.6
+ualad09:Doncaster,Doncaster,E08000017,482.8,4.5
+ualad09:Rotherham,Rotherham,E08000018,456.3,4.5
+ualad09:Sheffield,Sheffield,E08000019,477.0,2.7
+ualad09:Bradford,Bradford,E08000032,447.1,3.4
+ualad09:Calderdale,Calderdale,E08000033,488.0,4.8
+ualad09:Kirklees,Kirklees,E08000034,479.6,3.8
+ualad09:Leeds,Leeds,E08000035,495.6,2.2
+ualad09:Wakefield,Wakefield,E08000036,442.2,3.7
+ualad09:Derby,Derby,E06000015,534.7,3.9
+ualad09:Leicester,Leicester,E06000016,412.3,3.6
+ualad09:Nottingham,Nottingham,E06000018,424.3,3.9
+ualad09:Rutland,Rutland,E06000017,513.6,9.1
+ualad09:Amber Valley,Amber Valley,E07000032,509.0,5.5
+ualad09:Bolsover,Bolsover,E07000033,422.9,8.0
+ualad09:Chesterfield,Chesterfield,E07000034,487.2,6.9
+ualad09:Derbyshire Dales,Derbyshire Dales,E07000035,506.0,9.3
+ualad09:Erewash,Erewash,E07000036,512.0,7.5
+ualad09:High Peak,High Peak,E07000037,508.5,6.8
+ualad09:North East Derbyshire,North East Derbyshire,E07000038,509.5,7.4
+ualad09:South Derbyshire,South Derbyshire,E07000039,508.2,7.9
+ualad09:Blaby,Blaby,E07000129,526.8,6.7
+ualad09:Charnwood,Charnwood,E07000130,513.3,4.3
+ualad09:Harborough,Harborough,E07000131,552.5,6.2
+ualad09:Hinckley and Bosworth,Hinckley and Bosworth,E07000132,479.1,8.2
+ualad09:Melton,Melton,E07000133,462.9,10.0
+ualad09:North West Leicestershire,North West Leicestershire,E07000134,486.4,7.8
+ualad09:Oadby and Wigston,Oadby and Wigston,E07000135,450.9,7.8
+ualad09:Boston,Boston,E07000136,435.2,7.3
+ualad09:East Lindsey,East Lindsey,E07000137,474.7,5.4
+ualad09:Lincoln,Lincoln,E07000138,457.5,6.8
+ualad09:North Kesteven,North Kesteven,E07000139,500.3,6.5
+ualad09:South Holland,South Holland,E07000140,469.6,5.7
+ualad09:South Kesteven,South Kesteven,E07000141,490.3,6.2
+ualad09:West Lindsey,West Lindsey,E07000142,476.5,8.0
+ualad09:Corby,Corby,E07000150,441.3,6.6
+ualad09:Daventry,Daventry,E07000151,586.8,9.9
+ualad09:East Northamptonshire,East Northamptonshire,E07000152,513.1,6.0
+ualad09:Kettering,Kettering,E07000153,531.3,6.3
+ualad09:Northampton,Northampton,E07000154,471.6,4.4
+ualad09:South Northamptonshire,South Northamptonshire,E07000155,545.4,7.7
+ualad09:Wellingborough,Wellingborough,E07000156,444.6,6.9
+ualad09:Ashfield,Ashfield,E07000170,444.0,5.4
+ualad09:Bassetlaw,Bassetlaw,E07000171,471.4,8.1
+ualad09:Broxtowe,Broxtowe,E07000172,546.2,5.6
+ualad09:Gedling,Gedling,E07000173,486.4,5.2
+ualad09:Mansfield,Mansfield,E07000174,423.4,6.8
+ualad09:Newark and Sherwood,Newark and Sherwood,E07000175,439.8,6.0
+ualad09:Rushcliffe,Rushcliffe,E07000176,586.5,7.5
+"ualad09:Herefordshire, County of","Herefordshire, County of",E06000019,426.4,4.5
+ualad09:Shropshire,Shropshire,E06000051,482.5,4.5
+ualad09:StokeonTrent,StokeonTrent,E06000021,423.9,3.7
+ualad09:Telford and Wrekin,Telford and Wrekin,E06000020,458.4,4.6
+ualad09:Cannock Chase,Cannock Chase,E07000192,457.0,6.7
+ualad09:East Staffordshire,East Staffordshire,E07000193,470.8,6.2
+ualad09:Lichfield,Lichfield,E07000194,581.0,11.0
+ualad09:NewcastleunderLyme,NewcastleunderLyme,E07000195,475.6,5.5
+ualad09:South Staffordshire,South Staffordshire,E07000196,508.1,6.9
+ualad09:Stafford,Stafford,E07000197,538.7,4.1
+ualad09:Staffordshire Moorlands,Staffordshire Moorlands,E07000198,502.7,6.6
+ualad09:Tamworth,Tamworth,E07000199,453.7,6.9
+ualad09:North Warwickshire,North Warwickshire,E07000218,491.6,8.2
+ualad09:Nuneaton and Bedworth,Nuneaton and Bedworth,E07000219,492.5,7.2
+ualad09:Rugby,Rugby,E07000220,555.6,5.5
+ualad09:StratfordonAvon,StratfordonAvon,E07000221,536.1,7.8
+ualad09:Warwick,Warwick,E07000222,566.9,5.1
+ualad09:Birmingham,Birmingham,E08000025,479.1,2.1
+ualad09:Coventry,Coventry,E08000026,479.2,3.5
+ualad09:Dudley,Dudley,E08000027,471.6,3.7
+ualad09:Sandwell,Sandwell,E08000028,430.6,3.6
+ualad09:Solihull,Solihull,E08000029,599.6,4.6
+ualad09:Walsall,Walsall,E08000030,445.5,3.9
+ualad09:Wolverhampton,Wolverhampton,E08000031,439.6,3.9
+ualad09:Bromsgrove,Bromsgrove,E07000234,575.2,7.8
+ualad09:Malvern Hills,Malvern Hills,E07000235,455.4,12.0
+ualad09:Redditch,Redditch,E07000236,450.3,6.2
+ualad09:Worcester,Worcester,E07000237,506.3,6.7
+ualad09:Wychavon,Wychavon,E07000238,494.1,4.0
+ualad09:Wyre Forest,Wyre Forest,E07000239,468.2,7.4
+ualad09:Bedford,Bedford,E06000055,538.1,4.6
+ualad09:Central Bedfordshire,Central Bedfordshire,E06000056,572.0,4.4
+ualad09:Luton,Luton,E06000032,478.5,4.2
+ualad09:Peterborough,Peterborough,E06000031,469.4,5.0
+ualad09:SouthendonSea,SouthendonSea,E06000033,546.8,5.5
+ualad09:Thurrock,Thurrock,E06000034,553.7,4.2
+ualad09:Cambridge,Cambridge,E07000008,575.6,4.9
+ualad09:East Cambridgeshire,East Cambridgeshire,E07000009,525.9,8.9
+ualad09:Fenland,Fenland,E07000010,469.0,6.4
+ualad09:Huntingdonshire,Huntingdonshire,E07000011,549.8,4.2
+ualad09:South Cambridgeshire,South Cambridgeshire,E07000012,623.2,6.4
+ualad09:Basildon,Basildon,E07000066,545.4,6.8
+ualad09:Braintree,Braintree,E07000067,575.3,6.0
+ualad09:Brentwood,Brentwood,E07000068,686.1,10.0
+ualad09:Castle Point,Castle Point,E07000069,570.8,7.1
+ualad09:Chelmsford,Chelmsford,E07000070,584.2,5.9
+ualad09:Colchester,Colchester,E07000071,520.9,4.3
+ualad09:Epping Forest,Epping Forest,E07000072,651.6,8.6
+ualad09:Harlow,Harlow,E07000073,479.1,5.0
+ualad09:Maldon,Maldon,E07000074,598.6,12.0
+ualad09:Rochford,Rochford,E07000075,569.7,11.0
+ualad09:Tendring,Tendring,E07000076,500.3,6.3
+ualad09:Uttlesford,Uttlesford,E07000077,597.7,9.4
+ualad09:Broxbourne,Broxbourne,E07000095,589.3,6.7
+ualad09:Dacorum,Dacorum,E07000096,574.9,6.5
+ualad09:East Hertfordshire,East Hertfordshire,E07000097,596.4,4.8
+ualad09:Hertsmere,Hertsmere,E07000098,515.8,7.8
+ualad09:North Hertfordshire,North Hertfordshire,E07000099,633.4,5.8
+ualad09:St Albans,St Albans,E07000100,731.6,6.6
+ualad09:Stevenage,Stevenage,E07000101,534.1,6.7
+ualad09:Three Rivers,Three Rivers,E07000102,633.2,8.7
+ualad09:Watford,Watford,E07000103,597.8,6.3
+ualad09:Welwyn Hatfield,Welwyn Hatfield,E07000104,592.3,5.3
+ualad09:Breckland,Breckland,E07000143,450.9,5.9
+ualad09:Broadland,Broadland,E07000144,511.6,5.1
+ualad09:Great Yarmouth,Great Yarmouth,E07000145,425.0,7.6
+ualad09:King`s Lynn and West Norfolk,King`s Lynn and West Norfolk,E07000146,479.4,5.0
+ualad09:North Norfolk,North Norfolk,E07000147,466.2,8.1
+ualad09:Norwich,Norwich,E07000148,432.1,4.3
+ualad09:South Norfolk,South Norfolk,E07000149,525.2,6.4
+ualad09:Babergh,Babergh,E07000200,521.4,9.1
+ualad09:Forest Heath,Forest Heath,E07000201,418.0,9.2
+ualad09:Ipswich,Ipswich,E07000202,472.6,6.6
+ualad09:Mid Suffolk,Mid Suffolk,E07000203,508.7,6.7
+ualad09:St Edmundsbury,St Edmundsbury,E07000204,460.4,4.9
+ualad09:Suffolk Coastal,Suffolk Coastal,E07000205,569.8,5.6
+ualad09:Waveney,Waveney,E07000206,458.5,4.6
+ualad09:Camden,Camden,E09000007,707.6,4.9
+ualad09:City of London,City of London,E09000001,,
+ualad09:Hackney,Hackney,E09000012,608.4,3.7
+ualad09:Hammersmith and Fulham,Hammersmith and Fulham,E09000013,670.8,3.9
+ualad09:Haringey,Haringey,E09000014,574.6,4.5
+ualad09:Islington,Islington,E09000019,679.3,5.8
+ualad09:Kensington and Chelsea,Kensington and Chelsea,E09000020,786.0,11.0
+ualad09:Lambeth,Lambeth,E09000022,629.6,3.9
+ualad09:Lewisham,Lewisham,E09000023,604.3,3.2
+ualad09:Newham,Newham,E09000025,509.4,4.4
+ualad09:Southwark,Southwark,E09000028,622.6,3.9
+ualad09:Tower Hamlets,Tower Hamlets,E09000030,670.4,3.6
+ualad09:Wandsworth,Wandsworth,E09000032,705.5,3.0
+ualad09:Westminster,Westminster,E09000033,756.4,5.6
+ualad09:Barking and Dagenham,Barking and Dagenham,E09000002,517.8,4.2
+ualad09:Barnet,Barnet,E09000003,623.4,4.3
+ualad09:Bexley,Bexley,E09000004,613.3,4.1
+ualad09:Brent,Brent,E09000005,547.5,3.8
+ualad09:Bromley,Bromley,E09000006,699.9,3.8
+ualad09:Croydon,Croydon,E09000008,592.5,3.1
+ualad09:Ealing,Ealing,E09000009,575.3,3.2
+ualad09:Enfield,Enfield,E09000010,557.7,3.9
+ualad09:Greenwich,Greenwich,E09000011,594.1,4.5
+ualad09:Harrow,Harrow,E09000015,594.6,4.2
+ualad09:Havering,Havering,E09000016,614.8,4.6
+ualad09:Hillingdon,Hillingdon,E09000017,576.8,3.6
+ualad09:Hounslow,Hounslow,E09000018,563.3,4.0
+ualad09:Kingston upon Thames,Kingston upon Thames,E09000021,704.2,4.9
+ualad09:Merton,Merton,E09000024,615.1,4.8
+ualad09:Redbridge,Redbridge,E09000026,621.6,3.9
+ualad09:Richmond upon Thames,Richmond upon Thames,E09000027,763.9,4.7
+ualad09:Sutton,Sutton,E09000029,582.0,4.0
+ualad09:Waltham Forest,Waltham Forest,E09000031,541.8,3.6
+ualad09:Bracknell Forest,Bracknell Forest,E06000036,579.1,4.9
+ualad09:Brighton and Hove,Brighton and Hove,E06000043,543.3,4.3
+ualad09:Isle of Wight,Isle of Wight,E06000046,459.5,7.6
+ualad09:Medway,Medway,E06000035,548.6,4.4
+ualad09:Milton Keynes,Milton Keynes,E06000042,517.5,5.3
+ualad09:Portsmouth,Portsmouth,E06000044,487.2,3.6
+ualad09:Reading,Reading,E06000038,574.5,5.3
+ualad09:Slough,Slough,E06000039,528.6,3.8
+ualad09:Southampton,Southampton,E06000045,487.4,4.9
+ualad09:West Berkshire,West Berkshire,E06000037,595.4,6.5
+ualad09:Windsor and Maidenhead,Windsor and Maidenhead,E06000040,673.1,7.2
+ualad09:Wokingham,Wokingham,E06000041,656.6,7.1
+ualad09:Aylesbury Vale,Aylesbury Vale,E07000004,562.4,6.4
+ualad09:Chiltern,Chiltern,E07000005,690.3,11.0
+ualad09:South Bucks,South Bucks,E07000006,650.5,7.8
+ualad09:Wycombe,Wycombe,E07000007,618.8,5.1
+ualad09:Eastbourne,Eastbourne,E07000061,493.8,8.4
+ualad09:Hastings,Hastings,E07000062,454.2,6.4
+ualad09:Lewes,Lewes,E07000063,546.0,7.9
+ualad09:Rother,Rother,E07000064,454.0,9.6
+ualad09:Wealden,Wealden,E07000065,598.3,9.3
+ualad09:Basingstoke and Deane,Basingstoke and Deane,E07000084,627.1,4.8
+ualad09:East Hampshire,East Hampshire,E07000085,555.8,7.7
+ualad09:Eastleigh,Eastleigh,E07000086,547.6,6.2
+ualad09:Fareham,Fareham,E07000087,554.2,4.6
+ualad09:Gosport,Gosport,E07000088,467.7,8.5
+ualad09:Hart,Hart,E07000089,657.7,7.8
+ualad09:Havant,Havant,E07000090,519.7,7.0
+ualad09:New Forest,New Forest,E07000091,543.9,6.4
+ualad09:Rushmoor,Rushmoor,E07000092,541.8,7.2
+ualad09:Test Valley,Test Valley,E07000093,528.5,5.7
+ualad09:Winchester,Winchester,E07000094,613.7,6.9
+ualad09:Ashford,Ashford,E07000105,506.3,6.3
+ualad09:Canterbury,Canterbury,E07000106,574.4,7.0
+ualad09:Dartford,Dartford,E07000107,562.8,5.7
+ualad09:Dover,Dover,E07000108,532.9,7.7
+ualad09:Gravesham,Gravesham,E07000109,536.6,6.7
+ualad09:Maidstone,Maidstone,E07000110,515.4,4.4
+ualad09:Sevenoaks,Sevenoaks,E07000111,628.1,7.0
+ualad09:Shepway,Shepway,E07000112,481.4,9.0
+ualad09:Swale,Swale,E07000113,534.7,6.1
+ualad09:Thanet,Thanet,E07000114,450.9,6.1
+ualad09:Tonbridge and Malling,Tonbridge and Malling,E07000115,569.5,6.0
+ualad09:Tunbridge Wells,Tunbridge Wells,E07000116,646.4,8.4
+ualad09:Cherwell,Cherwell,E07000177,536.6,4.4
+ualad09:Oxford,Oxford,E07000178,571.8,3.8
+ualad09:South Oxfordshire,South Oxfordshire,E07000179,626.5,7.2
+ualad09:Vale of White Horse,Vale of White Horse,E07000180,610.0,5.9
+ualad09:West Oxfordshire,West Oxfordshire,E07000181,575.0,4.8
+ualad09:Elmbridge,Elmbridge,E07000207,728.3,6.1
+ualad09:Epsom and Ewell,Epsom and Ewell,E07000208,632.3,8.2
+ualad09:Guildford,Guildford,E07000209,647.4,5.7
+ualad09:Mole Valley,Mole Valley,E07000210,640.0,9.9
+ualad09:Reigate and Banstead,Reigate and Banstead,E07000211,671.6,6.5
+ualad09:Runnymede,Runnymede,E07000212,574.8,4.4
+ualad09:Spelthorne,Spelthorne,E07000213,655.5,5.2
+ualad09:Surrey Heath,Surrey Heath,E07000214,645.4,7.9
+ualad09:Tandridge,Tandridge,E07000215,615.4,4.6
+ualad09:Waverley,Waverley,E07000216,700.2,8.2
+ualad09:Woking,Woking,E07000217,621.1,7.6
+ualad09:Adur,Adur,E07000223,447.5,8.3
+ualad09:Arun,Arun,E07000224,441.7,6.2
+ualad09:Chichester,Chichester,E07000225,486.2,8.2
+ualad09:Crawley,Crawley,E07000226,550.4,5.3
+ualad09:Horsham,Horsham,E07000227,610.9,6.2
+ualad09:Mid Sussex,Mid Sussex,E07000228,594.9,5.5
+ualad09:Worthing,Worthing,E07000229,508.2,6.6
+ualad09:Bath and North East Somerset,Bath and North East Somerset,E06000022,513.8,5.8
+ualad09:Bournemouth,Bournemouth,E06000028,509.9,5.3
+"ualad09:Bristol, City of","Bristol, City of",E06000023,508.7,3.1
+ualad09:Cornwall,Cornwall,E06000052,453.5,3.2
+ualad09:Isles of Scilly,Isles of Scilly,E06000053,,
+ualad09:North Somerset,North Somerset,E06000024,559.6,4.7
+ualad09:Plymouth,Plymouth,E06000026,471.5,3.6
+ualad09:Poole,Poole,E06000029,518.6,4.8
+ualad09:South Gloucestershire,South Gloucestershire,E06000025,547.9,3.9
+ualad09:Swindon,Swindon,E06000030,499.2,3.4
+ualad09:Torbay,Torbay,E06000027,433.2,5.2
+ualad09:Wiltshire,Wiltshire,E06000054,510.1,3.2
+ualad09:East Devon,East Devon,E07000040,462.9,8.0
+ualad09:Exeter,Exeter,E07000041,455.1,6.2
+ualad09:Mid Devon,Mid Devon,E07000042,440.2,6.9
+ualad09:North Devon,North Devon,E07000043,433.8,8.0
+ualad09:South Hams,South Hams,E07000044,541.6,6.8
+ualad09:Teignbridge,Teignbridge,E07000045,449.7,4.9
+ualad09:Torridge,Torridge,E07000046,433.3,8.5
+ualad09:West Devon,West Devon,E07000047,499.9,8.1
+ualad09:Christchurch,Christchurch,E07000048,532.9,11.0
+ualad09:East Dorset,East Dorset,E07000049,524.5,8.7
+ualad09:North Dorset,North Dorset,E07000050,451.7,11.0
+ualad09:Purbeck,Purbeck,E07000051,461.3,11.0
+ualad09:West Dorset,West Dorset,E07000052,505.8,6.2
+ualad09:Weymouth and Portland,Weymouth and Portland,E07000053,469.3,7.7
+ualad09:Cheltenham,Cheltenham,E07000078,533.6,6.3
+ualad09:Cotswold,Cotswold,E07000079,508.3,7.1
+ualad09:Forest of Dean,Forest of Dean,E07000080,518.5,9.3
+ualad09:Gloucester,Gloucester,E07000081,474.5,4.8
+ualad09:Stroud,Stroud,E07000082,510.3,5.8
+ualad09:Tewkesbury,Tewkesbury,E07000083,535.9,6.6
+ualad09:Mendip,Mendip,E07000187,506.2,9.9
+ualad09:Sedgemoor,Sedgemoor,E07000188,497.4,6.9
+ualad09:South Somerset,South Somerset,E07000189,473.7,5.4
+ualad09:Taunton Deane,Taunton Deane,E07000190,501.6,6.6
+ualad09:West Somerset,West Somerset,E07000191,,
+ualad09:Anglesey,Anglesey,W06000001,444.8,6.4
+ualad09:Gwynedd,Gwynedd,W06000002,448.6,7.8
+ualad09:Conwy,Conwy,W06000003,515.6,7.0
+ualad09:Denbighshire,Denbighshire,W06000004,417.4,8.0
+ualad09:Flintshire,Flintshire,W06000005,509.5,5.3
+ualad09:Wrexham,Wrexham,W06000006,480.2,5.2
+ualad09:Powys,Powys,W06000023,425.1,7.3
+ualad09:Ceredigion,Ceredigion,W06000008,435.3,7.9
+ualad09:Pembrokeshire,Pembrokeshire,W06000009,432.5,8.7
+ualad09:Carmarthenshire,Carmarthenshire,W06000010,503.9,5.6
+ualad09:Swansea,Swansea,W06000011,504.8,4.9
+ualad09:Neath Port Talbot,Neath Port Talbot,W06000012,469.6,5.9
+ualad09:Bridgend,Bridgend,W06000013,481.1,7.3
+ualad09:The Vale of Glamorgan,The Vale of Glamorgan,W06000014,534.6,7.1
+ualad09:Cardiff,Cardiff,W06000015,490.9,4.6
+"ualad09:Rhondda, Cynon, Taff","Rhondda, Cynon, Taff",W06000016,479.9,3.7
+ualad09:Merthyr Tydfil,Merthyr Tydfil,W06000024,434.5,6.5
+ualad09:Caerphilly,Caerphilly,W06000018,470.8,4.1
+ualad09:Blaenau Gwent,Blaenau Gwent,W06000019,398.3,7.5
+ualad09:Torfaen,Torfaen,W06000020,467.8,5.7
+ualad09:Monmouthshire,Monmouthshire,W06000021,577.6,9.1
+ualad09:Newport,Newport,W06000022,462.4,5.5
+ualad09:Aberdeen City,Aberdeen City,S12000033,573.5,4.3
+ualad09:Aberdeenshire,Aberdeenshire,S12000034,574.6,5.1
+ualad09:Angus,Angus,S12000041,467.7,6.9
+ualad09:Argyll and Bute,Argyll and Bute,S12000035,475.2,8.8
+ualad09:Clackmannanshire,Clackmannanshire,S12000005,462.5,8.2
+ualad09:Dumfries and Galloway,Dumfries and Galloway,S12000006,453.8,5.3
+ualad09:Dundee City,Dundee City,S12000042,467.8,4.8
+ualad09:East Ayrshire,East Ayrshire,S12000008,526.7,6.0
+ualad09:East Dunbartonshire,East Dunbartonshire,S12000009,610.4,5.7
+ualad09:East Lothian,East Lothian,S12000010,538.8,6.5
+ualad09:East Renfrewshire,East Renfrewshire,S12000011,652.5,4.9
+"ualad09:Edinburgh, City of","Edinburgh, City of",S12000036,562.8,2.7
+ualad09:Eilean Siar,Eilean Siar,S12000013,461.8,11.0
+ualad09:Falkirk,Falkirk,S12000014,508.7,4.2
+ualad09:Fife,Fife,S12000015,515.7,3.9
+ualad09:Glasgow City,Glasgow City,S12000043,497.5,2.5
+ualad09:Highland,Highland,S12000017,487.9,4.3
+ualad09:Inverclyde,Inverclyde,S12000018,509.4,7.6
+ualad09:Midlothian,Midlothian,S12000019,475.5,6.0
+ualad09:Moray,Moray,S12000020,434.3,8.6
+ualad09:North Ayrshire,North Ayrshire,S12000021,509.9,4.8
+ualad09:North Lanarkshire,North Lanarkshire,S12000044,482.4,3.7
+ualad09:Orkney Islands,Orkney Islands,S12000023,533.4,16.0
+ualad09:Perth and Kinross,Perth and Kinross,S12000024,481.2,6.0
+ualad09:Renfrewshire,Renfrewshire,S12000038,540.4,5.4
+ualad09:Scottish Borders,Scottish Borders,S12000026,490.0,6.5
+ualad09:Shetland Islands,Shetland Islands,S12000027,519.4,12.0
+ualad09:South Ayrshire,South Ayrshire,S12000028,568.3,5.3
+ualad09:South Lanarkshire,South Lanarkshire,S12000029,517.5,3.9
+ualad09:Stirling,Stirling,S12000030,571.0,7.8
+ualad09:West Dunbartonshire,West Dunbartonshire,S12000039,479.7,6.0
+ualad09:West Lothian,West Lothian,S12000040,503.4,5.0
+pca10:BerwickuponTweed,BerwickuponTweed,E14000554,503.1,9.8
+pca10:Bishop Auckland,Bishop Auckland,E14000569,474.3,6.3
+pca10:Blaydon,Blaydon,E14000574,507.0,7.3
+pca10:Blyth Valley,Blyth Valley,E14000575,460.9,6.9
+pca10:City of Durham,City of Durham,E14000641,478.2,8.7
+pca10:Darlington,Darlington,E14000658,464.9,7.1
+pca10:Easington,Easington,E14000677,438.7,7.8
+pca10:Gateshead,Gateshead,E14000709,499.2,8.1
+pca10:Hartlepool,Hartlepool,E14000733,462.1,5.6
+pca10:Hexham,Hexham,E14000746,582.6,11.0
+pca10:Houghton and Sunderland South,Houghton and Sunderland South,E14000754,470.2,4.5
+pca10:Jarrow,Jarrow,E14000765,474.9,7.5
+pca10:Middlesbrough,Middlesbrough,E14000819,435.5,6.2
+pca10:Middlesbrough South and East Cleveland,Middlesbrough South and East Cleveland,E14000820,464.7,6.7
+pca10:Newcastle upon Tyne Central,Newcastle upon Tyne Central,E14000831,477.4,6.0
+pca10:Newcastle upon Tyne East,Newcastle upon Tyne East,E14000832,503.8,7.7
+pca10:Newcastle upon Tyne North,Newcastle upon Tyne North,E14000833,479.3,8.1
+pca10:North Durham,North Durham,E14000840,482.2,6.7
+pca10:North Tyneside,North Tyneside,E14000853,443.2,4.9
+pca10:North West Durham,North West Durham,E14000856,492.2,7.3
+pca10:Redcar,Redcar,E14000891,473.9,10.0
+pca10:Sedgefield,Sedgefield,E14000915,501.8,7.7
+pca10:South Shields,South Shields,E14000944,454.8,7.0
+pca10:Stockton North,Stockton North,E14000970,465.0,7.8
+pca10:Stockton South,Stockton South,E14000971,535.2,5.8
+pca10:Sunderland Central,Sunderland Central,E14000982,463.4,6.8
+pca10:Tynemouth,Tynemouth,E14001006,524.4,8.8
+pca10:Wansbeck,Wansbeck,E14001014,449.9,6.8
+pca10:Washington and Sunderland West,Washington and Sunderland West,E14001020,428.9,7.3
+pca10:Altrincham and Sale West,Altrincham and Sale West,E14000532,672.2,8.8
+pca10:AshtonunderLyne,AshtonunderLyne,E14000537,430.2,5.5
+pca10:Barrow and Furness,Barrow and Furness,E14000543,538.1,8.0
+pca10:Birkenhead,Birkenhead,E14000559,459.1,6.4
+pca10:Blackburn,Blackburn,E14000570,430.1,8.0
+pca10:Blackley and Broughton,Blackley and Broughton,E14000571,407.3,5.4
+pca10:Blackpool North and Cleveleys,Blackpool North and Cleveleys,E14000572,427.2,7.3
+pca10:Blackpool South,Blackpool South,E14000573,373.1,6.7
+pca10:Bolton North East,Bolton North East,E14000578,421.2,6.5
+pca10:Bolton South East,Bolton South East,E14000579,408.7,6.2
+pca10:Bolton West,Bolton West,E14000580,500.8,8.2
+pca10:Bootle,Bootle,E14000581,472.0,4.6
+pca10:Burnley,Burnley,E14000609,439.9,7.9
+pca10:Bury North,Bury North,E14000611,526.9,8.2
+pca10:Bury South,Bury South,E14000612,476.3,6.1
+pca10:Carlisle,Carlisle,E14000620,431.1,6.4
+pca10:Cheadle,Cheadle,E14000627,564.6,10.0
+pca10:Chorley,Chorley,E14000637,479.2,5.7
+pca10:City of Chester,City of Chester,E14000640,537.0,7.5
+pca10:Congleton,Congleton,E14000646,499.6,9.6
+pca10:Copeland,Copeland,E14000647,662.0,7.4
+pca10:Crewe and Nantwich,Crewe and Nantwich,E14000653,492.6,7.0
+pca10:Denton and Reddish,Denton and Reddish,E14000661,426.1,6.0
+pca10:Eddisbury,Eddisbury,E14000686,574.4,5.4
+pca10:Ellesmere Port and Neston,Ellesmere Port and Neston,E14000688,460.0,10.0
+pca10:Fylde,Fylde,E14000706,574.5,8.3
+pca10:Garston and Halewood,Garston and Halewood,E14000708,494.3,6.4
+pca10:Halton,Halton,E14000725,452.8,6.3
+pca10:Hazel Grove,Hazel Grove,E14000738,527.4,7.2
+pca10:Heywood and Middleton,Heywood and Middleton,E14000747,485.0,6.7
+pca10:Hyndburn,Hyndburn,E14000758,429.0,7.2
+pca10:Knowsley,Knowsley,E14000775,461.5,6.6
+pca10:Lancaster and Fleetwood,Lancaster and Fleetwood,E14000776,536.2,9.4
+pca10:Leigh,Leigh,E14000785,486.9,5.9
+"pca10:Liverpool, Riverside","Liverpool, Riverside",E14000793,505.7,7.1
+"pca10:Liverpool, Walton","Liverpool, Walton",E14000794,454.7,8.1
+"pca10:Liverpool, Wavertree","Liverpool, Wavertree",E14000795,530.5,6.4
+"pca10:Liverpool, West Derby","Liverpool, West Derby",E14000796,454.1,8.1
+pca10:Macclesfield,Macclesfield,E14000802,562.4,7.3
+pca10:Makerfield,Makerfield,E14000805,500.0,6.9
+pca10:Manchester Central,Manchester Central,E14000807,442.6,4.2
+"pca10:Manchester, Gorton","Manchester, Gorton",E14000808,452.6,7.8
+"pca10:Manchester, Withington","Manchester, Withington",E14000809,574.3,5.8
+pca10:Morecambe and Lunesdale,Morecambe and Lunesdale,E14000825,462.8,8.4
+pca10:Oldham East and Saddleworth,Oldham East and Saddleworth,E14000870,491.8,7.3
+pca10:Oldham West and Royton,Oldham West and Royton,E14000871,428.0,4.7
+pca10:Pendle,Pendle,E14000875,460.8,6.7
+pca10:Penrith and The Border,Penrith and The Border,E14000877,443.9,7.8
+pca10:Preston,Preston,E14000885,399.9,6.2
+pca10:Ribble Valley,Ribble Valley,E14000894,496.9,8.1
+pca10:Rochdale,Rochdale,E14000897,440.8,9.3
+pca10:Rossendale and Darwen,Rossendale and Darwen,E14000902,451.7,8.4
+pca10:Salford and Eccles,Salford and Eccles,E14000911,459.2,4.8
+pca10:Sefton Central,Sefton Central,E14000916,556.3,8.3
+pca10:South Ribble,South Ribble,E14000943,517.5,6.5
+pca10:Southport,Southport,E14000958,490.9,8.0
+pca10:St Helens North,St Helens North,E14000962,469.1,6.2
+pca10:St Helens South and Whiston,St Helens South and Whiston,E14000963,459.7,6.4
+pca10:Stalybridge and Hyde,Stalybridge and Hyde,E14000967,471.0,8.7
+pca10:Stockport,Stockport,E14000969,514.4,7.2
+pca10:Stretford and Urmston,Stretford and Urmston,E14000979,527.8,6.5
+pca10:Tatton,Tatton,E14000987,601.5,11.0
+pca10:Wallasey,Wallasey,E14001010,473.8,8.3
+pca10:Warrington North,Warrington North,E14001017,476.6,6.6
+pca10:Warrington South,Warrington South,E14001018,575.5,7.1
+pca10:Weaver Vale,Weaver Vale,E14001024,513.6,9.0
+pca10:West Lancashire,West Lancashire,E14001033,490.2,6.5
+pca10:Westmorland and Lonsdale,Westmorland and Lonsdale,E14001037,475.8,8.5
+pca10:Wigan,Wigan,E14001039,457.6,6.8
+pca10:Wirral South,Wirral South,E14001043,548.1,8.1
+pca10:Wirral West,Wirral West,E14001044,578.8,10.0
+pca10:Workington,Workington,E14001053,512.4,8.1
+pca10:Worsley and Eccles South,Worsley and Eccles South,E14001054,474.7,6.0
+pca10:Wyre and Preston North,Wyre and Preston North,E14001057,505.7,7.4
+pca10:Wythenshawe and Sale East,Wythenshawe and Sale East,E14001059,437.2,6.4
+pca10:Barnsley Central,Barnsley Central,E14000541,477.0,8.1
+pca10:Barnsley East,Barnsley East,E14000542,453.8,6.4
+pca10:Batley and Spen,Batley and Spen,E14000548,462.5,6.4
+pca10:Beverley and Holderness,Beverley and Holderness,E14000556,528.1,7.6
+pca10:Bradford East,Bradford East,E14000587,417.6,6.9
+pca10:Bradford South,Bradford South,E14000588,413.8,4.3
+pca10:Bradford West,Bradford West,E14000589,383.0,8.5
+pca10:Brigg and Goole,Brigg and Goole,E14000596,566.2,6.2
+pca10:Calder Valley,Calder Valley,E14000614,528.1,5.4
+pca10:Cleethorpes,Cleethorpes,E14000643,506.3,8.8
+pca10:Colne Valley,Colne Valley,E14000645,493.9,8.6
+pca10:Dewsbury,Dewsbury,E14000666,500.3,7.3
+pca10:Don Valley,Don Valley,E14000667,519.4,6.9
+pca10:Doncaster Central,Doncaster Central,E14000668,436.0,6.4
+pca10:Doncaster North,Doncaster North,E14000669,497.6,7.2
+pca10:East Yorkshire,East Yorkshire,E14000683,499.2,11.0
+pca10:Elmet and Rothwell,Elmet and Rothwell,E14000689,555.4,6.9
+pca10:Great Grimsby,Great Grimsby,E14000716,441.3,8.1
+pca10:Halifax,Halifax,E14000723,459.1,5.5
+pca10:Haltemprice and Howden,Haltemprice and Howden,E14000724,617.6,8.6
+pca10:Harrogate and Knaresborough,Harrogate and Knaresborough,E14000730,488.4,7.5
+pca10:Hemsworth,Hemsworth,E14000740,442.0,5.8
+pca10:Huddersfield,Huddersfield,E14000756,448.4,8.0
+pca10:Keighley,Keighley,E14000766,493.4,8.1
+pca10:Kingston upon Hull East,Kingston upon Hull East,E14000771,451.6,6.1
+pca10:Kingston upon Hull North,Kingston upon Hull North,E14000772,417.9,7.6
+pca10:Kingston upon Hull West and Hessle,Kingston upon Hull West and Hessle,E14000773,440.6,6.3
+pca10:Leeds Central,Leeds Central,E14000777,425.5,6.2
+pca10:Leeds East,Leeds East,E14000778,432.0,8.0
+pca10:Leeds North East,Leeds North East,E14000779,535.7,6.0
+pca10:Leeds North West,Leeds North West,E14000780,531.1,9.2
+pca10:Leeds West,Leeds West,E14000781,453.0,4.7
+pca10:Morley and Outwood,Morley and Outwood,E14000826,532.1,5.7
+"pca10:Normanton, Pontefract and Castleford","Normanton, Pontefract and Castleford",E14000836,431.7,5.6
+pca10:Penistone and Stocksbridge,Penistone and Stocksbridge,E14000876,545.8,8.3
+pca10:Pudsey,Pudsey,E14000886,545.9,6.4
+pca10:Richmond (Yorks),Richmond (Yorks),E14000895,479.1,9.0
+pca10:Rother Valley,Rother Valley,E14000903,515.0,7.0
+pca10:Rotherham,Rotherham,E14000904,399.4,8.1
+pca10:Scarborough and Whitby,Scarborough and Whitby,E14000913,493.6,6.5
+pca10:Scunthorpe,Scunthorpe,E14000914,461.4,7.3
+pca10:Selby and Ainsty,Selby and Ainsty,E14000917,529.3,8.4
+pca10:Sheffield Central,Sheffield Central,E14000919,486.1,7.2
+pca10:Sheffield South East,Sheffield South East,E14000920,434.0,5.7
+"pca10:Sheffield, Brightside and Hillsborough","Sheffield, Brightside and Hillsborough",E14000921,424.8,6.2
+"pca10:Sheffield, Hallam","Sheffield, Hallam",E14000922,624.6,6.2
+"pca10:Sheffield, Heeley","Sheffield, Heeley",E14000923,449.9,6.1
+pca10:Shipley,Shipley,E14000925,521.9,6.0
+pca10:Skipton and Ripon,Skipton and Ripon,E14000928,468.1,6.2
+pca10:Thirsk and Malton,Thirsk and Malton,E14000993,435.0,7.4
+pca10:Wakefield,Wakefield,E14001009,433.7,6.7
+pca10:Wentworth and Dearne,Wentworth and Dearne,E14001028,450.9,6.7
+pca10:York Central,York Central,E14001061,461.1,7.8
+pca10:York Outer,York Outer,E14001062,499.6,7.8
+pca10:Amber Valley,Amber Valley,E14000533,485.3,6.9
+pca10:Ashfield,Ashfield,E14000535,442.0,5.7
+pca10:Bassetlaw,Bassetlaw,E14000546,469.5,8.4
+pca10:Bolsover,Bolsover,E14000577,419.8,8.0
+pca10:Boston and Skegness,Boston and Skegness,E14000582,436.8,6.6
+pca10:Bosworth,Bosworth,E14000583,479.2,8.1
+pca10:Broxtowe,Broxtowe,E14000607,550.0,5.5
+pca10:Charnwood,Charnwood,E14000625,497.1,4.3
+pca10:Chesterfield,Chesterfield,E14000632,492.1,7.1
+pca10:Corby,Corby,E14000648,490.4,5.6
+pca10:Daventry,Daventry,E14000660,551.6,9.8
+pca10:Derby North,Derby North,E14000662,558.0,5.9
+pca10:Derby South,Derby South,E14000663,507.2,8.1
+pca10:Derbyshire Dales,Derbyshire Dales,E14000664,505.9,9.9
+pca10:Erewash,Erewash,E14000695,504.6,7.8
+pca10:Gainsborough,Gainsborough,E14000707,474.0,7.9
+pca10:Gedling,Gedling,E14000710,488.9,5.8
+pca10:Grantham and Stamford,Grantham and Stamford,E14000714,484.1,6.5
+pca10:Harborough,Harborough,E14000728,489.6,6.2
+pca10:High Peak,High Peak,E14000748,508.5,6.8
+pca10:Kettering,Kettering,E14000769,531.3,6.3
+pca10:Leicester East,Leicester East,E14000782,391.1,8.4
+pca10:Leicester South,Leicester South,E14000783,431.3,6.1
+pca10:Leicester West,Leicester West,E14000784,405.5,5.0
+pca10:Lincoln,Lincoln,E14000792,456.8,6.1
+pca10:Loughborough,Loughborough,E14000797,538.4,7.4
+pca10:Louth and Horncastle,Louth and Horncastle,E14000798,475.6,7.3
+pca10:Mansfield,Mansfield,E14000810,423.4,6.8
+pca10:Mid Derbyshire,Mid Derbyshire,E14000814,568.9,7.6
+pca10:Newark,Newark,E14000829,463.8,7.1
+pca10:North East Derbyshire,North East Derbyshire,E14000843,536.6,8.1
+pca10:North West Leicestershire,North West Leicestershire,E14000858,486.4,7.8
+pca10:Northampton North,Northampton North,E14000861,426.8,5.5
+pca10:Northampton South,Northampton South,E14000862,490.6,5.7
+pca10:Nottingham East,Nottingham East,E14000865,430.6,8.0
+pca10:Nottingham North,Nottingham North,E14000866,381.4,5.5
+pca10:Nottingham South,Nottingham South,E14000867,453.0,7.4
+pca10:Rushcliffe,Rushcliffe,E14000908,596.3,7.1
+pca10:Rutland and Melton,Rutland and Melton,E14000909,502.2,7.0
+pca10:Sherwood,Sherwood,E14000924,453.7,6.7
+pca10:Sleaford and North Hykeham,Sleaford and North Hykeham,E14000929,509.7,5.9
+pca10:South Derbyshire,South Derbyshire,E14000935,508.2,7.9
+pca10:South Holland and The Deepings,South Holland and The Deepings,E14000939,467.9,5.6
+pca10:South Leicestershire,South Leicestershire,E14000940,539.9,6.3
+pca10:South Northamptonshire,South Northamptonshire,E14000942,569.1,6.5
+pca10:Wellingborough,Wellingborough,E14001025,455.9,5.4
+pca10:AldridgeBrownhills,AldridgeBrownhills,E14000531,470.5,8.8
+"pca10:Birmingham, Edgbaston","Birmingham, Edgbaston",E14000560,488.1,7.1
+"pca10:Birmingham, Erdington","Birmingham, Erdington",E14000561,455.2,6.8
+"pca10:Birmingham, Hall Green","Birmingham, Hall Green",E14000562,503.6,8.6
+"pca10:Birmingham, Hodge Hill","Birmingham, Hodge Hill",E14000563,419.6,6.5
+"pca10:Birmingham, Ladywood","Birmingham, Ladywood",E14000564,476.3,6.5
+"pca10:Birmingham, Northfield","Birmingham, Northfield",E14000565,454.9,5.0
+"pca10:Birmingham, Perry Barr","Birmingham, Perry Barr",E14000566,430.3,5.5
+"pca10:Birmingham, Selly Oak","Birmingham, Selly Oak",E14000567,507.2,6.3
+"pca10:Birmingham, Yardley","Birmingham, Yardley",E14000568,462.9,7.3
+pca10:Bromsgrove,Bromsgrove,E14000605,575.2,7.8
+pca10:Burton,Burton,E14000610,462.3,5.8
+pca10:Cannock Chase,Cannock Chase,E14000618,457.0,6.7
+pca10:Coventry North East,Coventry North East,E14000649,419.9,6.7
+pca10:Coventry North West,Coventry North West,E14000650,493.9,6.6
+pca10:Coventry South,Coventry South,E14000651,523.4,6.5
+pca10:Dudley North,Dudley North,E14000671,405.3,8.0
+pca10:Dudley South,Dudley South,E14000672,441.0,6.4
+pca10:Halesowen and Rowley Regis,Halesowen and Rowley Regis,E14000722,473.1,7.5
+pca10:Hereford and South Herefordshire,Hereford and South Herefordshire,E14000743,423.0,7.5
+pca10:Kenilworth and Southam,Kenilworth and Southam,E14000767,577.7,9.0
+pca10:Lichfield,Lichfield,E14000791,588.7,9.4
+pca10:Ludlow,Ludlow,E14000799,514.9,10.0
+pca10:Meriden,Meriden,E14000812,583.9,7.3
+pca10:Mid Worcestershire,Mid Worcestershire,E14000818,488.9,6.1
+pca10:NewcastleunderLyme,NewcastleunderLyme,E14000834,478.5,6.0
+pca10:North Herefordshire,North Herefordshire,E14000847,430.1,5.9
+pca10:North Shropshire,North Shropshire,E14000849,479.1,6.7
+pca10:North Warwickshire,North Warwickshire,E14000854,498.4,7.3
+pca10:Nuneaton,Nuneaton,E14000868,486.7,9.0
+pca10:Redditch,Redditch,E14000892,453.0,6.0
+pca10:Rugby,Rugby,E14000905,528.0,5.7
+pca10:Shrewsbury and Atcham,Shrewsbury and Atcham,E14000926,480.0,7.3
+pca10:Solihull,Solihull,E14000931,613.5,6.6
+pca10:South Staffordshire,South Staffordshire,E14000945,510.5,7.3
+pca10:Stafford,Stafford,E14000965,538.8,4.8
+pca10:Staffordshire Moorlands,Staffordshire Moorlands,E14000966,506.7,8.1
+pca10:StokeonTrent Central,StokeonTrent Central,E14000972,424.3,5.6
+pca10:StokeonTrent North,StokeonTrent North,E14000973,398.5,4.5
+pca10:StokeonTrent South,StokeonTrent South,E14000974,452.8,6.0
+pca10:Stone,Stone,E14000975,537.3,8.3
+pca10:Stourbridge,Stourbridge,E14000976,522.8,6.7
+pca10:StratfordonAvon,StratfordonAvon,E14000977,535.7,8.1
+pca10:Sutton Coldfield,Sutton Coldfield,E14000985,637.7,6.4
+pca10:Tamworth,Tamworth,E14000986,460.2,8.3
+pca10:Telford,Telford,E14000989,443.8,5.4
+pca10:The Wrekin,The Wrekin,E14000992,475.7,7.2
+pca10:Walsall North,Walsall North,E14001011,421.6,5.8
+pca10:Walsall South,Walsall South,E14001012,441.0,9.0
+pca10:Warley,Warley,E14001016,408.6,5.7
+pca10:Warwick and Leamington,Warwick and Leamington,E14001019,562.4,6.7
+pca10:West Bromwich East,West Bromwich East,E14001029,481.1,8.0
+pca10:West Bromwich West,West Bromwich West,E14001030,428.9,4.8
+pca10:West Worcestershire,West Worcestershire,E14001035,466.5,8.4
+pca10:Wolverhampton North East,Wolverhampton North East,E14001049,407.0,6.7
+pca10:Wolverhampton South East,Wolverhampton South East,E14001050,415.4,6.4
+pca10:Wolverhampton South West,Wolverhampton South West,E14001051,480.5,7.1
+pca10:Worcester,Worcester,E14001052,506.3,6.7
+pca10:Wyre Forest,Wyre Forest,E14001058,468.2,7.4
+pca10:Basildon and Billericay,Basildon and Billericay,E14000544,535.3,12.0
+pca10:Bedford,Bedford,E14000552,504.5,6.8
+pca10:Braintree,Braintree,E14000590,573.9,7.6
+pca10:Brentwood and Ongar,Brentwood and Ongar,E14000594,655.3,9.7
+pca10:Broadland,Broadland,E14000603,526.3,7.5
+pca10:Broxbourne,Broxbourne,E14000606,603.4,6.5
+pca10:Bury St Edmunds,Bury St Edmunds,E14000613,496.4,5.2
+pca10:Cambridge,Cambridge,E14000617,569.4,5.0
+pca10:Castle Point,Castle Point,E14000622,570.8,7.1
+pca10:Central Suffolk and North Ipswich,Central Suffolk and North Ipswich,E14000624,544.4,6.5
+pca10:Chelmsford,Chelmsford,E14000628,561.1,8.4
+pca10:Clacton,Clacton,E14000642,426.4,8.1
+pca10:Colchester,Colchester,E14000644,509.9,6.0
+pca10:Epping Forest,Epping Forest,E14000693,670.8,8.4
+pca10:Great Yarmouth,Great Yarmouth,E14000717,425.0,7.6
+pca10:Harlow,Harlow,E14000729,479.1,5.7
+pca10:Harwich and North Essex,Harwich and North Essex,E14000734,558.0,4.9
+pca10:Hemel Hempstead,Hemel Hempstead,E14000739,552.9,5.9
+pca10:Hertford and Stortford,Hertford and Stortford,E14000744,575.0,6.1
+pca10:Hertsmere,Hertsmere,E14000745,515.8,7.8
+pca10:Hitchin and Harpenden,Hitchin and Harpenden,E14000749,726.8,7.0
+pca10:Huntingdon,Huntingdon,E14000757,552.8,5.5
+pca10:Ipswich,Ipswich,E14000761,473.9,7.2
+pca10:Luton North,Luton North,E14000800,467.4,5.7
+pca10:Luton South,Luton South,E14000801,496.7,6.0
+pca10:Maldon,Maldon,E14000806,585.4,7.5
+pca10:Mid Bedfordshire,Mid Bedfordshire,E14000813,610.8,6.8
+pca10:Mid Norfolk,Mid Norfolk,E14000816,488.6,8.7
+pca10:North East Bedfordshire,North East Bedfordshire,E14000841,589.3,6.5
+pca10:North East Cambridgeshire,North East Cambridgeshire,E14000842,467.9,5.5
+pca10:North East Hertfordshire,North East Hertfordshire,E14000845,626.4,7.3
+pca10:North Norfolk,North Norfolk,E14000848,470.5,8.6
+pca10:North West Cambridgeshire,North West Cambridgeshire,E14000855,524.2,6.5
+pca10:North West Norfolk,North West Norfolk,E14000859,446.1,6.6
+pca10:Norwich North,Norwich North,E14000863,427.8,7.1
+pca10:Norwich South,Norwich South,E14000864,458.9,8.1
+pca10:Peterborough,Peterborough,E14000878,451.7,5.2
+pca10:Rayleigh and Wickford,Rayleigh and Wickford,E14000888,606.2,10.0
+pca10:Rochford and Southend East,Rochford and Southend East,E14000899,506.2,6.5
+pca10:Saffron Walden,Saffron Walden,E14000910,613.1,8.4
+pca10:South Basildon and East Thurrock,South Basildon and East Thurrock,E14000933,551.0,7.0
+pca10:South Cambridgeshire,South Cambridgeshire,E14000934,624.5,7.1
+pca10:South East Cambridgeshire,South East Cambridgeshire,E14000937,571.8,7.3
+pca10:South Norfolk,South Norfolk,E14000941,507.2,7.3
+pca10:South Suffolk,South Suffolk,E14000946,517.0,8.1
+pca10:South West Bedfordshire,South West Bedfordshire,E14000949,506.7,7.0
+pca10:South West Hertfordshire,South West Hertfordshire,E14000951,658.2,7.6
+pca10:South West Norfolk,South West Norfolk,E14000952,477.2,5.3
+pca10:Southend West,Southend West,E14000957,561.9,6.9
+pca10:St Albans,St Albans,E14000960,670.7,7.6
+pca10:Stevenage,Stevenage,E14000968,539.6,6.3
+pca10:Suffolk Coastal,Suffolk Coastal,E14000981,523.4,7.8
+pca10:Thurrock,Thurrock,E14000995,554.0,6.7
+pca10:Watford,Watford,E14001021,610.4,5.4
+pca10:Waveney,Waveney,E14001022,458.2,5.3
+pca10:Welwyn Hatfield,Welwyn Hatfield,E14001027,589.3,5.2
+pca10:West Suffolk,West Suffolk,E14001034,427.5,6.6
+pca10:Witham,Witham,E14001045,555.8,7.6
+pca10:Barking,Barking,E14000540,511.7,4.5
+pca10:Battersea,Battersea,E14000549,704.7,4.3
+pca10:Beckenham,Beckenham,E14000551,759.5,5.8
+pca10:Bermondsey and Old Southwark,Bermondsey and Old Southwark,E14000553,641.9,6.6
+pca10:Bethnal Green and Bow,Bethnal Green and Bow,E14000555,600.3,5.8
+pca10:Bexleyheath and Crayford,Bexleyheath and Crayford,E14000558,626.0,7.9
+pca10:Brent Central,Brent Central,E14000591,500.0,5.3
+pca10:Brent North,Brent North,E14000592,558.9,5.7
+pca10:Brentford and Isleworth,Brentford and Isleworth,E14000593,604.8,7.9
+pca10:Bromley and Chislehurst,Bromley and Chislehurst,E14000604,746.5,6.6
+pca10:Camberwell and Peckham,Camberwell and Peckham,E14000615,571.8,5.0
+pca10:Carshalton and Wallington,Carshalton and Wallington,E14000621,575.0,4.9
+pca10:Chelsea and Fulham,Chelsea and Fulham,E14000629,670.8,9.5
+pca10:Chingford and Woodford Green,Chingford and Woodford Green,E14000634,707.6,9.4
+pca10:Chipping Barnet,Chipping Barnet,E14000636,674.9,7.1
+pca10:Cities of London and Westminster,Cities of London and Westminster,E14000639,786.3,8.6
+pca10:Croydon Central,Croydon Central,E14000654,569.1,6.1
+pca10:Croydon North,Croydon North,E14000655,534.2,5.1
+pca10:Croydon South,Croydon South,E14000656,663.2,4.8
+pca10:Dagenham and Rainham,Dagenham and Rainham,E14000657,519.6,7.2
+pca10:Dulwich and West Norwood,Dulwich and West Norwood,E14000673,705.6,6.1
+pca10:Ealing Central and Acton,Ealing Central and Acton,E14000674,674.2,7.4
+pca10:Ealing North,Ealing North,E14000675,543.4,5.8
+"pca10:Ealing, Southall","Ealing, Southall",E14000676,518.3,4.6
+pca10:East Ham,East Ham,E14000679,537.4,6.9
+pca10:Edmonton,Edmonton,E14000687,508.5,7.4
+pca10:Eltham,Eltham,E14000690,659.1,5.9
+pca10:Enfield North,Enfield North,E14000691,568.2,7.8
+"pca10:Enfield, Southgate","Enfield, Southgate",E14000692,586.2,7.3
+pca10:Erith and Thamesmead,Erith and Thamesmead,E14000696,523.1,4.8
+pca10:Feltham and Heston,Feltham and Heston,E14000701,518.0,5.4
+pca10:Finchley and Golders Green,Finchley and Golders Green,E14000703,651.6,8.0
+pca10:Greenwich and Woolwich,Greenwich and Woolwich,E14000718,586.7,6.8
+pca10:Hackney North and Stoke Newington,Hackney North and Stoke Newington,E14000720,647.1,5.7
+pca10:Hackney South and Shoreditch,Hackney South and Shoreditch,E14000721,574.9,5.5
+pca10:Hammersmith,Hammersmith,E14000726,670.8,4.1
+pca10:Hampstead and Kilburn,Hampstead and Kilburn,E14000727,711.2,6.1
+pca10:Harrow East,Harrow East,E14000731,580.7,5.9
+pca10:Harrow West,Harrow West,E14000732,590.9,7.2
+pca10:Hayes and Harlington,Hayes and Harlington,E14000737,511.1,6.7
+pca10:Hendon,Hendon,E14000741,536.6,6.5
+pca10:Holborn and St Pancras,Holborn and St Pancras,E14000750,691.4,6.4
+pca10:Hornchurch and Upminster,Hornchurch and Upminster,E14000751,616.3,7.0
+pca10:Hornsey and Wood Green,Hornsey and Wood Green,E14000752,686.5,6.9
+pca10:Ilford North,Ilford North,E14000759,614.0,6.3
+pca10:Ilford South,Ilford South,E14000760,598.8,5.6
+pca10:Islington North,Islington North,E14000763,617.0,7.6
+pca10:Islington South and Finsbury,Islington South and Finsbury,E14000764,719.5,6.7
+pca10:Kensington,Kensington,E14000768,848.2,12.0
+pca10:Kingston and Surbiton,Kingston and Surbiton,E14000770,670.2,5.2
+pca10:Lewisham East,Lewisham East,E14000787,604.6,5.5
+pca10:Lewisham West and Penge,Lewisham West and Penge,E14000788,668.8,6.7
+"pca10:Lewisham, Deptford","Lewisham, Deptford",E14000789,591.8,5.1
+pca10:Leyton and Wanstead,Leyton and Wanstead,E14000790,550.0,6.4
+pca10:Mitcham and Morden,Mitcham and Morden,E14000823,532.5,6.0
+pca10:Old Bexley and Sidcup,Old Bexley and Sidcup,E14000869,666.7,5.5
+pca10:Orpington,Orpington,E14000872,630.0,5.4
+pca10:Poplar and Limehouse,Poplar and Limehouse,E14000882,711.8,5.5
+pca10:Putney,Putney,E14000887,745.6,7.3
+pca10:Richmond Park,Richmond Park,E14000896,834.3,6.9
+pca10:Romford,Romford,E14000900,651.6,5.9
+"pca10:Ruislip, Northwood and Pinner","Ruislip, Northwood and Pinner",E14000906,672.5,9.0
+pca10:Streatham,Streatham,E14000978,659.6,5.6
+pca10:Sutton and Cheam,Sutton and Cheam,E14000984,586.4,5.7
+pca10:Tooting,Tooting,E14000998,688.7,6.0
+pca10:Tottenham,Tottenham,E14001002,478.4,6.1
+pca10:Twickenham,Twickenham,E14001005,726.7,6.8
+pca10:Uxbridge and South Ruislip,Uxbridge and South Ruislip,E14001007,593.7,5.7
+pca10:Vauxhall,Vauxhall,E14001008,574.9,6.7
+pca10:Walthamstow,Walthamstow,E14001013,526.7,5.3
+pca10:West Ham,West Ham,E14001032,500.6,6.1
+pca10:Westminster North,Westminster North,E14001036,711.6,7.1
+pca10:Wimbledon,Wimbledon,E14001040,766.6,8.0
+pca10:Aldershot,Aldershot,E14000530,540.3,6.1
+pca10:Arundel and South Downs,Arundel and South Downs,E14000534,587.6,9.7
+pca10:Ashford,Ashford,E14000536,493.8,5.9
+pca10:Aylesbury,Aylesbury,E14000538,512.8,7.3
+pca10:Banbury,Banbury,E14000539,537.4,4.7
+pca10:Basingstoke,Basingstoke,E14000545,622.0,5.2
+pca10:Beaconsfield,Beaconsfield,E14000550,659.1,6.5
+pca10:Bexhill and Battle,Bexhill and Battle,E14000557,470.1,11.0
+pca10:Bognor Regis and Littlehampton,Bognor Regis and Littlehampton,E14000576,427.0,7.0
+pca10:Bracknell,Bracknell,E14000586,597.1,5.6
+"pca10:Brighton, Kemptown","Brighton, Kemptown",E14000597,525.2,9.1
+"pca10:Brighton, Pavilion","Brighton, Pavilion",E14000598,564.8,7.7
+pca10:Buckingham,Buckingham,E14000608,646.2,6.3
+pca10:Canterbury,Canterbury,E14000619,576.9,7.6
+pca10:Chatham and Aylesford,Chatham and Aylesford,E14000626,517.5,7.8
+pca10:Chesham and Amersham,Chesham and Amersham,E14000631,690.3,11.0
+pca10:Chichester,Chichester,E14000633,503.9,8.1
+pca10:Crawley,Crawley,E14000652,550.4,5.3
+pca10:Dartford,Dartford,E14000659,573.9,5.3
+pca10:Dover,Dover,E14000670,538.3,8.0
+pca10:East Hampshire,East Hampshire,E14000680,550.9,8.0
+pca10:East Surrey,East Surrey,E14000681,610.0,5.1
+pca10:East Worthing and Shoreham,East Worthing and Shoreham,E14000682,468.2,7.9
+pca10:Eastbourne,Eastbourne,E14000684,504.8,7.8
+pca10:Eastleigh,Eastleigh,E14000685,535.5,6.5
+pca10:Epsom and Ewell,Epsom and Ewell,E14000694,636.1,6.9
+pca10:Esher and Walton,Esher and Walton,E14000697,724.8,6.6
+pca10:Fareham,Fareham,E14000699,554.1,5.3
+pca10:Faversham and Mid Kent,Faversham and Mid Kent,E14000700,549.6,5.9
+pca10:Folkestone and Hythe,Folkestone and Hythe,E14000704,490.6,8.0
+pca10:Gillingham and Rainham,Gillingham and Rainham,E14000711,529.2,6.8
+pca10:Gosport,Gosport,E14000713,485.8,7.7
+pca10:Gravesham,Gravesham,E14000715,536.6,6.7
+pca10:Guildford,Guildford,E14000719,619.1,5.0
+pca10:Hastings and Rye,Hastings and Rye,E14000735,454.9,6.2
+pca10:Havant,Havant,E14000736,489.9,8.0
+pca10:Henley,Henley,E14000742,664.6,8.4
+pca10:Horsham,Horsham,E14000753,611.6,5.8
+pca10:Hove,Hove,E14000755,502.3,5.9
+pca10:Isle of Wight,Isle of Wight,E14000762,459.5,7.6
+pca10:Lewes,Lewes,E14000786,569.6,8.3
+pca10:Maidenhead,Maidenhead,E14000803,665.4,9.7
+pca10:Maidstone and The Weald,Maidstone and The Weald,E14000804,511.2,6.7
+pca10:Meon Valley,Meon Valley,E14000811,622.5,7.5
+pca10:Mid Sussex,Mid Sussex,E14000817,580.8,5.7
+pca10:Milton Keynes North,Milton Keynes North,E14000821,498.3,5.5
+pca10:Milton Keynes South,Milton Keynes South,E14000822,562.0,7.7
+pca10:Mole Valley,Mole Valley,E14000824,687.9,9.4
+pca10:New Forest East,New Forest East,E14000827,558.0,6.3
+pca10:New Forest West,New Forest West,E14000828,514.0,12.0
+pca10:Newbury,Newbury,E14000830,568.5,7.8
+pca10:North East Hampshire,North East Hampshire,E14000844,672.9,6.9
+pca10:North Thanet,North Thanet,E14000852,495.3,9.1
+pca10:North West Hampshire,North West Hampshire,E14000857,574.3,5.6
+pca10:Oxford East,Oxford East,E14000873,546.5,5.2
+pca10:Oxford West and Abingdon,Oxford West and Abingdon,E14000874,597.6,6.3
+pca10:Portsmouth North,Portsmouth North,E14000883,474.9,5.0
+pca10:Portsmouth South,Portsmouth South,E14000884,497.5,7.2
+pca10:Reading East,Reading East,E14000889,556.5,6.3
+pca10:Reading West,Reading West,E14000890,602.8,6.8
+pca10:Reigate,Reigate,E14000893,724.7,8.0
+pca10:Rochester and Strood,Rochester and Strood,E14000898,583.4,7.0
+pca10:Romsey and Southampton North,Romsey and Southampton North,E14000901,509.1,6.2
+pca10:Runnymede and Weybridge,Runnymede and Weybridge,E14000907,585.0,6.1
+pca10:Sevenoaks,Sevenoaks,E14000918,628.2,8.5
+pca10:Sittingbourne and Sheppey,Sittingbourne and Sheppey,E14000927,520.0,5.4
+pca10:Slough,Slough,E14000930,530.9,4.2
+pca10:South Thanet,South Thanet,E14000948,460.0,6.8
+pca10:South West Surrey,South West Surrey,E14000953,727.9,8.1
+"pca10:Southampton, Itchen","Southampton, Itchen",E14000955,461.5,5.4
+"pca10:Southampton, Test","Southampton, Test",E14000956,505.0,6.2
+pca10:Spelthorne,Spelthorne,E14000959,655.5,5.2
+pca10:Surrey Heath,Surrey Heath,E14000983,625.0,7.4
+pca10:Tonbridge and Malling,Tonbridge and Malling,E14000997,593.3,7.8
+pca10:Tunbridge Wells,Tunbridge Wells,E14001004,647.6,8.5
+pca10:Wantage,Wantage,E14001015,590.4,7.0
+pca10:Wealden,Wealden,E14001023,609.5,9.2
+pca10:Winchester,Winchester,E14001041,584.3,6.8
+pca10:Windsor,Windsor,E14001042,660.7,7.8
+pca10:Witney,Witney,E14001046,575.0,4.8
+pca10:Woking,Woking,E14001047,624.1,7.6
+pca10:Wokingham,Wokingham,E14001048,637.6,8.4
+pca10:Worthing West,Worthing West,E14001055,499.8,5.6
+pca10:Wycombe,Wycombe,E14001056,576.8,6.6
+pca10:Bath,Bath,E14000547,527.8,8.6
+pca10:Bournemouth East,Bournemouth East,E14000584,502.8,6.0
+pca10:Bournemouth West,Bournemouth West,E14000585,507.1,7.7
+pca10:Bridgwater and West Somerset,Bridgwater and West Somerset,E14000595,484.3,7.6
+pca10:Bristol East,Bristol East,E14000599,463.5,5.6
+pca10:Bristol North West,Bristol North West,E14000600,517.5,8.2
+pca10:Bristol South,Bristol South,E14000601,478.7,3.6
+pca10:Bristol West,Bristol West,E14000602,562.6,5.5
+pca10:Camborne and Redruth,Camborne and Redruth,E14000616,441.3,8.6
+pca10:Central Devon,Central Devon,E14000623,455.1,5.6
+pca10:Cheltenham,Cheltenham,E14000630,531.2,6.9
+pca10:Chippenham,Chippenham,E14000635,534.6,7.8
+pca10:Christchurch,Christchurch,E14000638,524.4,9.0
+pca10:Devizes,Devizes,E14000665,480.3,5.8
+pca10:East Devon,East Devon,E14000678,500.4,8.1
+pca10:Exeter,Exeter,E14000698,434.0,6.4
+pca10:Filton and Bradley Stoke,Filton and Bradley Stoke,E14000702,600.4,6.1
+pca10:Forest of Dean,Forest of Dean,E14000705,518.2,9.3
+pca10:Gloucester,Gloucester,E14000712,468.8,4.7
+pca10:Kingswood,Kingswood,E14000774,524.8,6.3
+pca10:Mid Dorset and North Poole,Mid Dorset and North Poole,E14000815,497.8,8.7
+pca10:Newton Abbot,Newton Abbot,E14000835,447.4,8.0
+pca10:North Cornwall,North Cornwall,E14000837,496.0,8.3
+pca10:North Devon,North Devon,E14000838,433.8,8.0
+pca10:North Dorset,North Dorset,E14000839,482.1,9.4
+pca10:North East Somerset,North East Somerset,E14000846,495.5,7.8
+pca10:North Somerset,North Somerset,E14000850,585.7,7.4
+pca10:North Swindon,North Swindon,E14000851,489.0,4.0
+pca10:North Wiltshire,North Wiltshire,E14000860,541.5,8.2
+"pca10:Plymouth, Moor View","Plymouth, Moor View",E14000879,448.0,6.4
+"pca10:Plymouth, Sutton and Devonport","Plymouth, Sutton and Devonport",E14000880,458.2,5.0
+pca10:Poole,Poole,E14000881,522.0,5.3
+pca10:Salisbury,Salisbury,E14000912,521.9,7.6
+pca10:Somerton and Frome,Somerton and Frome,E14000932,504.1,9.0
+pca10:South Dorset,South Dorset,E14000936,464.9,6.3
+pca10:South East Cornwall,South East Cornwall,E14000938,459.2,8.5
+pca10:South Swindon,South Swindon,E14000947,524.2,5.3
+pca10:South West Devon,South West Devon,E14000950,545.3,6.2
+pca10:South West Wiltshire,South West Wiltshire,E14000954,479.4,5.7
+pca10:St Austell and Newquay,St Austell and Newquay,E14000961,460.9,6.2
+pca10:St Ives,St Ives,E14000964,389.2,9.9
+pca10:Stroud,Stroud,E14000980,514.8,6.3
+pca10:Taunton Deane,Taunton Deane,E14000988,501.6,6.6
+pca10:Tewkesbury,Tewkesbury,E14000990,545.2,6.6
+pca10:The Cotswolds,The Cotswolds,E14000991,506.9,5.8
+pca10:Thornbury and Yate,Thornbury and Yate,E14000994,497.2,6.1
+pca10:Tiverton and Honiton,Tiverton and Honiton,E14000996,460.1,6.4
+pca10:Torbay,Torbay,E14000999,419.7,6.0
+pca10:Torridge and West Devon,Torridge and West Devon,E14001000,455.3,6.9
+pca10:Totnes,Totnes,E14001001,489.6,6.9
+pca10:Truro and Falmouth,Truro and Falmouth,E14001003,462.1,7.4
+pca10:Wells,Wells,E14001026,482.4,7.2
+pca10:West Dorset,West Dorset,E14001031,516.1,6.1
+pca10:WestonSuperMare,WestonSuperMare,E14001038,533.4,7.4
+pca10:Yeovil,Yeovil,E14001060,472.2,5.9
+pca10:Ynys Mon,Ynys Mon,W07000041,444.8,6.4
+pca10:Delyn,Delyn,W07000042,522.2,7.6
+pca10:Alyn and Deeside,Alyn and Deeside,W07000043,494.7,6.8
+pca10:Wrexham,Wrexham,W07000044,480.9,8.3
+pca10:Llanelli,Llanelli,W07000045,479.0,9.7
+pca10:Gower,Gower,W07000046,562.5,6.2
+pca10:Swansea West,Swansea West,W07000047,490.4,10.0
+pca10:Swansea East,Swansea East,W07000048,462.2,7.1
+pca10:Aberavon,Aberavon,W07000049,490.3,8.2
+pca10:Cardiff Central,Cardiff Central,W07000050,482.0,8.7
+pca10:Cardiff North,Cardiff North,W07000051,557.4,6.9
+pca10:Rhondda,Rhondda,W07000052,432.4,9.4
+pca10:Torfaen,Torfaen,W07000053,469.2,6.0
+pca10:Monmouth,Monmouth,W07000054,558.1,8.6
+pca10:Newport East,Newport East,W07000055,475.3,6.9
+pca10:Newport West,Newport West,W07000056,487.6,7.5
+pca10:Arfon,Arfon,W07000057,479.2,12.0
+pca10:Aberconwy,Aberconwy,W07000058,496.3,8.2
+pca10:Clwyd West,Clwyd West,W07000059,521.4,10.0
+pca10:Vale of Clwyd,Vale of Clwyd,W07000060,431.8,8.9
+pca10:Dwyfor Meirionnydd,Dwyfor Meirionnydd,W07000061,389.2,11.0
+pca10:Clwyd South,Clwyd South,W07000062,444.0,7.7
+pca10:Montgomeryshire,Montgomeryshire,W07000063,425.5,9.8
+pca10:Ceredigion,Ceredigion,W07000064,435.3,7.9
+pca10:Preseli Pembrokeshire,Preseli Pembrokeshire,W07000065,466.7,12.0
+pca10:Carmarthen West and South Pembrokeshire,Carmarthen West and South Pembrokeshire,W07000066,429.8,9.5
+pca10:Carmarthen East and Dinefwr,Carmarthen East and Dinefwr,W07000067,540.6,8.0
+pca10:Brecon and Radnorshire,Brecon and Radnorshire,W07000068,422.1,8.7
+pca10:Neath,Neath,W07000069,457.7,7.2
+pca10:Cynon Valley,Cynon Valley,W07000070,499.5,6.9
+pca10:Merthyr Tydfil and Rhymney,Merthyr Tydfil and Rhymney,W07000071,434.0,5.4
+pca10:Blaenau Gwent,Blaenau Gwent,W07000072,398.3,7.5
+pca10:Bridgend,Bridgend,W07000073,529.3,8.4
+pca10:Ogmore,Ogmore,W07000074,442.5,5.7
+pca10:Pontypridd,Pontypridd,W07000075,501.8,5.7
+pca10:Caerphilly,Caerphilly,W07000076,470.1,6.8
+pca10:Islwyn,Islwyn,W07000077,485.7,7.3
+pca10:Vale of Glamorgan,Vale of Glamorgan,W07000078,511.4,8.1
+pca10:Cardiff West,Cardiff West,W07000079,463.5,9.7
+pca10:Cardiff South and Penarth,Cardiff South and Penarth,W07000080,481.5,6.2
+pca10:Aberdeen North,Aberdeen North,S14000001,538.3,5.8
+pca10:Aberdeen South,Aberdeen South,S14000002,584.1,7.0
+pca10:Airdrie and Shotts,Airdrie and Shotts,S14000003,482.3,7.7
+pca10:Angus,Angus,S14000004,448.5,9.1
+pca10:Argyll and Bute,Argyll and Bute,S14000005,475.2,8.8
+"pca10:Ayr, Carrick and Cumnock","Ayr, Carrick and Cumnock",S14000006,516.5,7.7
+pca10:Banff and Buchan,Banff and Buchan,S14000007,488.9,7.7
+"pca10:Berwickshire, Roxburgh and Selkirk","Berwickshire, Roxburgh and Selkirk",S14000008,470.4,5.9
+"pca10:Caithness, Sutherland and Easter Ross","Caithness, Sutherland and Easter Ross",S14000009,461.3,7.5
+pca10:Central Ayrshire,Central Ayrshire,S14000010,535.6,5.9
+"pca10:Coatbridge, Chryston and Bellshill","Coatbridge, Chryston and Bellshill",S14000011,490.0,4.8
+"pca10:Cumbernauld, Kilsyth and Kirkintilloch East","Cumbernauld, Kilsyth and Kirkintilloch East",S14000012,519.4,8.1
+pca10:Dumfries and Galloway,Dumfries and Galloway,S14000013,442.9,6.6
+"pca10:Dumfriesshire, Clydesdale and Tweeddale","Dumfriesshire, Clydesdale and Tweeddale",S14000014,500.8,8.7
+pca10:Dundee East,Dundee East,S14000015,463.9,6.9
+pca10:Dundee West,Dundee West,S14000016,490.1,6.0
+pca10:Dunfermline and West Fife,Dunfermline and West Fife,S14000017,552.5,6.2
+pca10:East Dunbartonshire,East Dunbartonshire,S14000018,595.5,8.1
+"pca10:East Kilbride, Strathaven and Lesmahagow","East Kilbride, Strathaven and Lesmahagow",S14000019,523.9,6.1
+pca10:East Lothian,East Lothian,S14000020,538.8,6.5
+pca10:East Renfrewshire,East Renfrewshire,S14000021,652.5,4.9
+pca10:Edinburgh East,Edinburgh East,S14000022,527.0,5.4
+pca10:Edinburgh North and Leith,Edinburgh North and Leith,S14000023,565.3,5.3
+pca10:Edinburgh South,Edinburgh South,S14000024,643.7,6.6
+pca10:Edinburgh South West,Edinburgh South West,S14000025,535.4,6.2
+pca10:Edinburgh West,Edinburgh West,S14000026,532.6,6.8
+pca10:Falkirk,Falkirk,S14000028,493.8,4.6
+pca10:Glasgow Central,Glasgow Central,S14000029,478.4,9.2
+pca10:Glasgow East,Glasgow East,S14000030,445.9,5.6
+pca10:Glasgow North,Glasgow North,S14000031,539.5,7.8
+pca10:Glasgow North East,Glasgow North East,S14000032,444.3,6.7
+pca10:Glasgow North West,Glasgow North West,S14000033,582.4,6.3
+pca10:Glasgow South,Glasgow South,S14000034,547.4,6.8
+pca10:Glasgow South West,Glasgow South West,S14000035,446.0,6.0
+pca10:Glenrothes,Glenrothes,S14000036,455.7,7.1
+pca10:Gordon,Gordon,S14000037,615.8,6.4
+pca10:Inverclyde,Inverclyde,S14000038,509.4,7.6
+"pca10:Inverness, Nairn, Badenoch and Strathspey","Inverness, Nairn, Badenoch and Strathspey",S14000039,489.9,6.4
+pca10:Kilmarnock and Loudoun,Kilmarnock and Loudoun,S14000040,537.5,7.0
+pca10:Kirkcaldy and Cowdenbeath,Kirkcaldy and Cowdenbeath,S14000041,527.3,6.3
+pca10:Lanark and Hamilton East,Lanark and Hamilton East,S14000042,547.9,5.9
+pca10:Linlithgow and East Falkirk,Linlithgow and East Falkirk,S14000043,520.4,6.2
+pca10:Livingston,Livingston,S14000044,503.2,5.4
+pca10:Midlothian,Midlothian,S14000045,475.5,6.0
+pca10:Moray,Moray,S14000046,434.3,8.6
+pca10:Motherwell and Wishaw,Motherwell and Wishaw,S14000047,481.6,8.2
+pca10:Na hEileanan An Iar,Na hEileanan An Iar,S14000027,461.8,11.0
+pca10:North Ayrshire and Arran,North Ayrshire and Arran,S14000048,514.7,6.0
+pca10:North East Fife,North East Fife,S14000049,522.6,8.9
+pca10:Ochil and South Perthshire,Ochil and South Perthshire,S14000050,462.5,5.8
+pca10:Orkney and Shetland,Orkney and Shetland,S14000051,525.0,9.5
+pca10:Paisley and Renfrewshire North,Paisley and Renfrewshire North,S14000052,588.6,6.9
+pca10:Paisley and Renfrewshire South,Paisley and Renfrewshire South,S14000053,508.2,6.9
+pca10:Perth and North Perthshire,Perth and North Perthshire,S14000054,503.2,7.1
+"pca10:Ross, Skye and Lochaber","Ross, Skye and Lochaber",S14000055,521.8,6.5
+pca10:Rutherglen and Hamilton West,Rutherglen and Hamilton West,S14000056,480.8,5.5
+pca10:Stirling,Stirling,S14000057,571.0,7.8
+pca10:West Aberdeenshire and Kincardine,West Aberdeenshire and Kincardine,S14000058,638.3,7.2
+pca10:West Dunbartonshire,West Dunbartonshire,S14000059,479.7,6.0
+gor:North East,North East,E12000001,477.1,1.3
+gor:North West,North West,E12000002,484.6,0.7
+gor:Yorkshire and The Humber,Yorkshire and The Humber,E12000003,479.0,0.9
+gor:East Midlands,East Midlands,E12000004,483.4,0.9
+gor:West Midlands,West Midlands,E12000005,480.6,0.7
+gor:East,East,E12000006,539.1,0.9
+gor:London,London,E12000007,617.8,0.7
+gor:South East,South East,E12000008,567.0,0.7
+gor:South West,South West,E12000009,495.6,0.9
+gor:Wales,Wales,W92000004,479.4,1.3
+gor:Scotland,Scotland,S92000003,518.2,0.9
+gor:Northern Ireland,Northern Ireland,N92000002,456.8,1.5

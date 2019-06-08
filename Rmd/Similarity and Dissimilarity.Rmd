@@ -9,6 +9,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Dissimilarity Measures for Nominal Attributes
 “Gower's distance” is chosen by metric "gower" or automatically if some columns of x are not numeric. Also known as Gower's coefficient (1971), expressed as a dissimilarity, this implies that a particular standardisation will be applied to each variable, and the “distance” between two units is the sum of all the variable-specific distances
+
+
+  * dsa
+
 ```{r s0}
 library(cluster)
 x1 <- c('a','b','a','a')
@@ -16,6 +20,7 @@ x2 <- c('y','x','x','x')
 x3 <- c('e','q','e','q')
 x4 <- c('z','z','z','n')
 D0 <- data.frame(x1=x1,x2=x2,x3=x3,x4=x4)
+D0
 d <- daisy(D0,metric = "gower")
 as.matrix(d)
 ```
@@ -46,21 +51,24 @@ as.matrix(s)
 D <- iris[sample(1:150,5),-5]
 d2 <- dist(D)
 as.matrix(d2)
-d3 <- stats::dist(D,p=3)
+d3 <- dist(D,p=2)
 as.matrix(d3)
 ```
 
 #### Euclidean distance(Another way):
 ```{r s5}
-d4 <- daisy(D)
+d4 <- daisy(D,metric ='euclidean')
 as.matrix(d4)
 ```
 
 #### Manhattan distance:
 ```{r s6}
+d4 <- dist(D,p = Inf)
+as.matrix(d4)
 d5 <- daisy(D, metric = 'manhattan')
 as.matrix(d5)
 ```
+
 
 ## Dissimilarity for Attributes of Mixed Types
 ```{r s7}

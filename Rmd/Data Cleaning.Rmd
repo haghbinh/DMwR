@@ -1,0 +1,80 @@
+---
+title: "3.2 Data Cleaning"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 3.2.1 Missing Values
+#### Reading the dataset with missing values
+```{r dc1}
+D <- read.table('Datasets/Analysis.txt',na.strings=c('XXXXXXX'))
+names(D) <- c('season','size','speed','mxPH','mnO2','Cl','NO3','NH4','oPO4','PO4','Chla','a1','a2','a3','a4','a5','a6','a7')
+```
+
+#### Which objects of a dataset have at leat one missing value?
+```{r dc2}
+which(!complete.cases(D))
+```
+
+#### Which attributes of an object are missing?
+```{r dc4}
+x <- c(2,3,NA,4,NA)
+is.na(x)
+which(is.na(x))
+sum(is.na(x))
+which(is.na(D[28,]))
+```
+
+#### What percent of each attribute is missing?
+```{r dc5}
+n <- nrow(D)
+f <- function(x) sum(is.na(x))/n
+apply(D,2,f)
+```
+
+###	Ignoring the missing tuples
+#### Extractig the complete objects from the dataset
+```{r dc3}
+D_comp <- D[complete.cases(D),]
+dim(D)
+dim(D_comp)
+```
+
+
+####Create a function that gives us the objects in dataset  have a certain number of missings.
+```{r dc6}
+manyNA <- function(D,a){
+  n <- ncol(D)
+  index <- apply(D,1,function(x) sum(is.na(x))/n > a)
+  out <- list()
+  out$na <- D[index,]
+  out$index <- index
+  out$clean <- D[!index,]
+  return(out)
+}
+Miss_D <- manyNA(D,0.1)
+Clean0.1_D <- Miss_D$clean
+Miss_D$na
+```
+
+###	Use a measure of central tendency for the attribute to fill in the missing values
+```{r dc7}
+which(is.na(D$mxPH))
+D[is.na(D$mxPH), "mxPH"] <- mean(D$mxPH, na.rm = T)
+```
+###	Use the most probable value to fill in the missing value
+```{r dc9}
+library(corrplot)
+C=cor(D_comp[, 4:18])
+corrplot.mixed(C, lower="number", upper="pie")
+which(is.na(D$oPO4))
+which(is.na(D$PO4))
+D[28,'PO4']
+reg <- lm(PO4 ~ oPO4, data = D_comp)
+D[28,'PO4'] <- predict(reg,newdata = D[28,])
+D[28,'PO4']
+```
+

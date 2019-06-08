@@ -1,0 +1,64 @@
+---
+title: "3.3 Data Integration"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+###  cbind and rbind in R
+The simplest case is when we have a two datasets with either identical columns (both the number of and names) or the same number of rows. In this case, either rbind or cbind
+work greatly.
+
+#### Example 1:
+```{r di1}
+x1 <- c('Ali','Ahmad','Ali')
+x2 <- c('Karimi','Zare','Hafezi')
+x3 <- c(16,17,19)
+x4 <- c(18,15,13)
+
+D1 <- data.frame(name=x1,family=x2,math=x3)
+D2 <- data.frame(name=x1,family=x2,stat=x3)
+
+D_cbind <- cbind(D1,stat=D2$stat)
+D_cbind
+```
+
+#### Example 2:
+```{r di2}
+D2013 <- read.csv(file="Datasets/england_payment_fulltime_2013.csv",h=T)
+D2014 <- read.csv(file="Datasets/england_payment_fulltime_2014.csv",h=T)
+dim(D2013)
+dim(D2014)
+names(D2013)
+names(D2014)
+head(D2013[,1:4])
+head(D2014)
+names(D2013)[3:4] <- paste0(names(D2013)[3:4],"_2013")
+names(D2014)[4:5] <- paste0(names(D2014)[4:5],"_2014")
+names(D2013)
+names(D2014)
+D_cbind <- cbind(D2013,D2014[,4:5])
+head(D_cbind)
+```
+
+##  Joins
+#### Example 3:
+Consider the Example 1 and
+```{r di3}
+x1_1 <- c('Ahmad','Ali','Ali')
+x2_1 <- c('Zare','Karimi','Hafezi')
+x5 <- c(15,18,13)
+D3 <- data.frame(name=x1_1,family=x2_1,stat=x5)
+D3
+D1
+```
+How we can join data frames D1 and D3?
+### merge
+R comes with a built-in function, called merge, to merge two data.frames.
+```{r di4}
+D_merge <- merge(x=D1,y=D3,by.x = c("name","family"),by.y = c("name","family"))
+D_merge
+```
+
