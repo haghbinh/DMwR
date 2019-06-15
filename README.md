@@ -20,6 +20,8 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
  * [PCA for Data Reduction(Digit Recognition Example)](https://haghbinh.github.io/DMwR/html/3_Data_Preprocessing/3-4_Dimension_Reduction.html)
  * [Data Transformation](https://haghbinh.github.io/DMwR/html/3_Data_Preprocessing/3_5_Data_Transformation.html)
 ## 4. Data Warehousing and Online Analytical Processing
+ * [Group Manipulation](https://haghbinh.github.io/DMwR/html/4_OLAP/4.1_Group_Manipulation.html)
+ * [Group Manipulation](https://haghbinh.github.io/DMwR/html/4_OLAP/4.2_Faster_Group_Manipulation_with_dplyr.html)
 
 
 #### Support or Contact
