@@ -1,0 +1,170 @@
+---
+title: "4.2 Faster Group Manipulation with dplyr"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#### Reference: R for Everyone (by: J. P. Lander)
+
+## dplyr package
+Writing code with **dplyr** involves using the “grammar of data“ to perform data munging. Each step is done by a single function that represents a verb. These verbs will be somewhat familiar to SQL users. Selecting columns is done with select, filtering rows with filter, grouping data with group_by and changing or adding columns with mutate. These are just some of the many functions in dplyr.
+
+When working with both dplyr and plyr it is important to load plyr first and then dplyr, because they have a number of functions with the same names, and in R, functions from the last package loaded take precedence. This sometimes creates a need to explicitly specify both the package and function using the double colon operator (::), such as
+plyr::summarize or dplyr::summarize.
+
+## Pipes 
+Not only is dplyr incredibly fast; it popularized the new piping paradigm made possible by the magrittr package. That is, rather than nesting functions within each other, storing temporary steps to variables, we pipe the result of one function into another using the
+pipe **(%>%)** operator. With pipes we pipe objects into the first arguments of functions. These operations can be chained together, piping the result of one function into the first argument of the next.
+As an example, we pipe the diamonds data into the head function and that into the dim function.
+```{r gm1, message=FALSE, warning=FALSE}
+library(magrittr)
+data(diamonds, package='ggplot2')
+dim(diamonds)
+diamonds %>% dim
+```
+
+## tbl
+Just as data.table introduced the data.table object to extend data.frames, dplyr brought us tbl objects which are also an extension of data.frames. While they have beneficial underlying properties, the most outwardly noticeable feature of tbls is that when they are printed to the screen, only a subset of the rows are displayed by default and only as many columns as will fit on the screen are printed.1 Another feature is that the data type stored in each column is displayed under the column names.
+
+The diamonds data—with more recent versions of ggplot2—are stored in a tbl, specifically a tbl_df, which itself is an extension of tbl. Without dplyr or similar tbl-based package loaded they will print as a normal data.frame. Since tbls are printed with only a subset of the rows, we do not need to use **head**.
+```{r gm2, message=FALSE, warning=FALSE}
+library(dplyr)
+diamonds
+```
+
+## select
+The **select** function takes a data.frame (or tbl) as its first argument then the desired columns as subsequent arguments. The function, like all **dplyr** functions, can be used in the traditional, nested manner or with pipes.
+```{r gm3, message=FALSE, warning=FALSE}
+select(diamonds, carat, price)
+diamonds %>% select(carat, price)
+```
+
+It is possible to use traditional R square bracket syntax, though the dplyr printing rules still apply.
+
+```{r gm4, message=FALSE, warning=FALSE}
+diamonds[, c('carat', 'price')]
+```
+
+As with the square bracket syntax, column names can be specified by position using their indices.
+```{r gm5, message=FALSE, warning=FALSE}
+select(diamonds, 1, 7)
+diamonds %>% select(1, 7)
+```
+
+Searching for a partial match is done with dplyr functions starts_with, ends_with and contains.
+```{r gm6, message=FALSE, warning=FALSE}
+diamonds %>% select(starts_with('c'))
+diamonds %>% select(ends_with('e'))
+diamonds %>% select(contains('l'))
+diamonds %>% select(matches('r.+t'))
+diamonds %>% select(-carat, -price)
+diamonds %>% select(-c(carat, price))
+```
+
+## filter
+Specifying rows based on a logical expression is done with filter.
+```{r gm7, message=FALSE, warning=FALSE}
+diamonds %>% filter(cut == 'Ideal')
+diamonds %>% filter(cut %in% c('Ideal', 'Good'))
+diamonds %>% filter(price >= 1000)
+diamonds %>% filter(price != 1000)
+# Compound filtering is accomplished by either separating the expressions with a comma (,) or an ampersand (&).
+diamonds %>% filter(carat > 2, price < 14000)
+diamonds %>% filter(carat > 2 & price < 14000)
+# A logical or statement is expressed with a vertical pipe (|).
+diamonds %>% filter(carat < 1 | carat > 5)
+```
+
+## slice
+While filter is used for specifying rows based on a logical expression, slice is used for specifying rows by row number. The desired indices are passed as a vector to slice.
+```{r gm8, message=FALSE, warning=FALSE}
+diamonds %>% slice(c(1:5, 8, 15:20))
+diamonds %>% slice(-1)
+```
+
+## mutate
+Creating new columns or modifying existing columns is done with the mutate function. Creating a new column that is the ratio of price and carat is as simple as providing that ratio as an argument to mutate.
+```{r gm9, message=FALSE, warning=FALSE}
+diamonds %>% mutate(price/carat)
+diamonds %>% select(carat, price) %>% mutate(price/carat)
+diamonds %>% select(carat, price) %>% mutate(Ratio=price/carat)
+diamonds %>% select(carat, price) %>% mutate(Ratio=price/carat,Double=Ratio*2)
+```
+
+A nice feature of the **magrittr** package is the assignment pipe **(%<>%)**, which both pipes the left-hand side into the function on the right-hand side and assigns the result back to the object on the left-hand side.
+```{r gm10, message=FALSE, warning=FALSE}
+library(magrittr)
+diamonds2 <- diamonds
+diamonds2 %<>% select(carat, price) %>% mutate(Ratio=price/carat, Double=Ratio*2)
+diamonds2
+```
+
+## summarize
+While mutate applies vectorized functions over columns, summarize applies functions that return a result of length one such as **mean, max, median** or other similar functions. 
+```{r gm11, message=FALSE, warning=FALSE}
+summarize(diamonds, mean(price))
+diamonds %>% summarize(mean(price))
+diamonds %>% summarize(AvgPrice=mean(price),
+                       MedianPrice=median(price),
+                       AvgCarat=mean(carat))
+```
+
+## group_by
+The summarize function is moderately useful by itself but really shines when used with group_by to first partition the data and then apply a function to each partition independently. To split the data according to a variable and then apply a summary function
+to each partition, the data is first passed to group_by and the resulting grouped data.frame or tbl is passed to summarize, which allows functions to be applied to individual columns. This usage illustrates the power and ease of pipes.
+
+```{r gm12, message=FALSE, warning=FALSE}
+diamonds %>% group_by(cut) %>% summarize(AvgPrice=mean(price))
+```
+
+This is a more eloquent, and faster, way to aggregate data than the **aggregate** function, and it more easily enables multiple calculations and grouping variables.
+```{r gm13, message=FALSE, warning=FALSE}
+diamonds %>% group_by(cut,color) %>% summarize(AvgPrice=mean(price), SumCarat=sum(carat))
+```
+
+## arrange
+Sorting is performed with the arrange function, which is much easier to understand and use than the order and sort functions from base R.
+```{r gm14, message=FALSE, warning=FALSE}
+diamonds %>% group_by(cut) %>% summarize(AvgPrice=mean(price), SumCarat=sum(carat)) %>% arrange(AvgPrice)
+
+diamonds %>% group_by(cut) %>% summarize(AvgPrice=mean(price), SumCarat=sum(carat)) %>% arrange(desc(AvgPrice))
+```
+
+## do
+For general purpose calculations not covered by the specialized manipulation functions in dplyr, such as filter, mutate and summarize, there is do, which enables any arbitrary
+function on the data. For a simple example we create a function that sorts the diamonds data and returns the first N rows.
+```{r gm15, message=FALSE, warning=FALSE}
+topN <- function(x, N=5) {
+ x %>% arrange(desc(price)) %>% head(N)
+}
+topN(diamonds,3)
+diamonds %>% do(topN(., N=3))
+diamonds %>% group_by(cut) %>% do(topN(., N=3))
+```
+
+When using do with a single, unnamed argument, such as the previous example, the result is a data.frame. If we had named the argument, then the expression would result in a data.frame where the calculated column is actually a list.
+
+```{r gm16, message=FALSE, warning=FALSE}
+topByCut <- diamonds %>% group_by(cut) %>% do(Top=topN(., 3))
+topByCut
+class(topByCut$Top)
+class(topByCut$Top[[1]])
+topByCut$Top[[1]]
+```
+
+## dplyr with Databases
+An important feature of dplyr is its capability to work with data stored in a database in much the same way it works with data in data.frames. As of writing, dplyr works with PostgreSQL, MySQL, SQLite, MonetDB, Google Big Query and Spark DataFrames.
+For more standard computations, the R code is translated into equivalent SQL code. For arbitrary R code that cannot be easily translated into SQL, dplyr (experimentally) chunks the data into memory and runs the computations independently. This enables data
+munging and analysis on data that would otherwise not fit in memory. While database operations will be slower than the equivalent data.frame operations, this is of little concern as the data would not have fit into memory anyway. To illustrate, we look at a SQLite database with two tables holding the diamonds data and an additional, related, dataset. We download this database using download.file.
+
+```{r gm17, message=FALSE, warning=FALSE}
+library(RSQLite)
+library(dbplyr)
+drv <- dbDriver('SQLite')
+con <- dbConnect(drv, 'Datasets/diamonds.db')
+diaTab <- tbl(con, "diamonds")
+diaTab %>% group_by(cut) %>% dplyr::summarize(Price=mean(price))
+diaTab %>% group_by(cut) %>% dplyr::summarize(Price=mean(price), Carat=mean(Carat))
+```
