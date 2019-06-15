@@ -7,6 +7,7 @@ You can use the [This website](https://haghbinh.github.io/DMwR) to preview the c
 ### Data Mining Concepts and Techniques
 By: Jiawei Han, Micheline Kamber and Jian Pei
 [The Book Slides can be find here](https://hanj.cs.illinois.edu/bk3/bk3_slidesindex.htm)
+
 ## 1. Introduction
 ## 2. Getting to Know Your Data
  * [Loading data into R](https://haghbinh.github.io/DMwR/html/2_Getting_to_Know_Your_Data/Loading_data.html)
