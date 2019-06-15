@@ -67,7 +67,6 @@ library(xts)
 GSPC <- as.xts(get.hist.quote("^GSPC",start="1998-01-01",
                                 quote=c("Open","High","Low","Close","Volume","Adjusted")))
 head(GSPC)
-=======
 ```{r bank2}
 summary(bank)
 ```

@@ -1,0 +1,80 @@
+---
+title: "4.1 Group Manipulation"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#### Reference: R for Everyone (by: J. P. Lander)
+
+## Data cube with aggregate function
+### Dimensions: season, size and speed
+### Cube measure: mean of mxPH
+```{r gm1_1, message=FALSE, warning=FALSE}
+D <- read.table('Datasets/Analysis.txt',na.strings=c('XXXXXXX'))
+names(D) <- c('season','size','speed','mxPH','mnO2','Cl','NO3','NH4','oPO4','PO4','Chla','a1','a2','a3','a4','a5','a6','a7')
+head(D)
+```
+
+People experienced with SQL generally want to run an aggregation and group by as their first R task. The way to do this is to use the aptly named aggregate function. 
+```{r gm2, message=FALSE, warning=FALSE}
+aggregate(mxPH ~ season+size+speed, data=D , max)
+# Dimensions: season, size 
+aggregate(mxPH ~ season+size, data=D , max)
+# Dimensions: season
+aggregate(mxPH ~ season, data=D , max)
+```
+
+# Slice and dice
+The slice operation performs a selection on one dimension of the given
+cube, resulting in a subcube.
+
+```{r gm3, message=FALSE, warning=FALSE}
+# Base cuboid:
+ph_cube <- aggregate(mxPH ~ season+size+speed, data=D , max)
+# Slice for season = "winter"
+ph_cube[ph_cube$season=="winter",]
+# Dice for season = "autumn" or "winter" and  size= "medium" or "large" and speed ="high"
+idx1 <- (ph_cube$season == "autumn") | (ph_cube$season == "winter")
+idx2 <- (ph_cube$size == "medium") | (ph_cube$size == "large")
+idx3 <- (ph_cube$speed == "high") 
+ph_cube[idx1 & idx2 & idx3,]
+```
+
+# data.table
+For speed junkies there is a package called data.table, written by Matt Dowle that extends and enhances the functionality of data.frames.
+```{r gm4, message=FALSE, warning=FALSE}
+library(data.table)
+theDT <- data.table(A=1:10,
+                    B=letters[1:10],C=LETTERS[11:20],
+                    D=rep(c("One", "Two", "Three"), length.out=10))
+theDT
+```
+
+## Keys
+We start by adding a key to theDT. We will use the D column to index the data.table. This is done using setkey, which takes the name of the data.table as its first argument and the name of the desired column (without quotes, as is consistent with column selection) as the second argument.
+
+```{r gm5, message=FALSE, warning=FALSE}
+# set the key
+setkey(theDT, D)
+# show the data.table again
+theDT
+theDT["One", ]
+theDT[c("One", "Two"), ]
+```
+
+### More than one column can be set as the key.
+To access rows according to both keys, there is a special function named **J**. It takes multiple arguments, each of which is a vector of values to select.
+```{r gm6, message=FALSE, warning=FALSE}
+ph_cube1 <- data.table(ph_cube)
+setkey(ph_cube1, season, size)
+ph_cube1[J("autumn", "large"), ]
+ph_cube1[J("autumn", c("small","large")), ]
+```
+
+## data.table Aggregation
+```{r gm7, message=FALSE, warning=FALSE}
+setkey(ph_cube1, season)
+ph_cube1[,mean(mxPH),by =list(size,speed)]
+```
