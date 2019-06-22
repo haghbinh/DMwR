@@ -24,6 +24,11 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
  * [Group Manipulation](https://haghbinh.github.io/DMwR/html/4_OLAP/4.1_Group_Manipulation.html)
  * [Group Manipulation with dplyr](https://haghbinh.github.io/DMwR/html/4_OLAP/4.2_Faster_Group_Manipulation_with_dplyr.html)
 
+## 5. Data Cube Technology
+## 6. Mining Frequent Patterns, Associations, and Correlations: Basic Concepts and Methods
+ * [The Apriori Algorithm](https://haghbinh.github.io/DMwR/html/6_Frequent_Patterns/6.1_The_Apriori_Algorithm.html)
+ * [The Eclat Algorithm](https://haghbinh.github.io/DMwR/html/6_Frequent_Patterns/6.2_The_Eclat_Algorithm.html)
+ * [Market Basket Analysis](https://haghbinh.github.io/DMwR/html/6_Frequent_Patterns/6.3_Market_Basket_Analysis.html)
 
 #### Support or Contact
 Having trouble with Pages?  [haghbinh](https://haghbinh.github.com/) or [contact support](haghbinh@gmail.com) and we’ll help you sort it out.
