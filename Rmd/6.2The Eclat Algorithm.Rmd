@@ -1,0 +1,82 @@
+---
+title: "The Eclat Algorithm"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The Eclat algorithm is used to perform itemset mining. Itemset mining let us find frequent patterns in data like if a consumer buys milk, he also buys bread. This type of pattern is called association rules and is used in many application domains.
+
+The basic idea for the eclat algorithm is use tidset intersections to compute the support of a candidate itemset avoiding the generation of subsets that does not exist in the prefix tree. It was originally proposed by Zaki, Parthasarathy et al.
+
+The eclat algorithm can be found in the **arule** package of R system.
+
+## Example 1
+```{r message=FALSE, warning=FALSE}
+library(arules)
+## Create transaction data set.
+data <- list(
+  c("a","b","c"),
+  c("a","b"),
+  c("a","b","d"),
+  c("b","e"),
+  c("b","c","e"),
+  c("a","d","e"),
+  c("a","c"),
+  c("a","b","d"),
+  c("c","e"),
+  c("a","b","d","e"))
+data <- as(data, "transactions")
+## Mine itemsets with tidLists.
+f <- eclat(data, parameter = list(support = 0, tidLists = TRUE))
+inspect(tidLists(f))
+## Get dimensions of the tidLists.
+dim(tidLists(f))
+## Coerce tidLists to list.
+as(tidLists(f), "list")
+## Inspect visually.
+image(data)
+image(tidLists(f))
+##Show the Frequent itemsets and respectives supports
+inspect(f)
+```
+
+## Example 2
+```{r message=FALSE, warning=FALSE}
+library(arules)
+data(Income)
+inspect(Income[1:2])
+```
+
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+## Mine frequent itemsets with Eclat.
+fsets <- eclat(Income, parameter = list(supp = 0.5))
+fsets2 <- eclat(Income, parameter = list(supp = 0.1,maxlen = 15))
+
+## Display the 5 itemsets with the highest support.
+fsets.top5 <- sort(fsets[1:5])
+fsets2.top5 <- sort(fsets[1:5])
+inspect(fsets.top5)
+
+## Get the itemsets as a list
+as(items(fsets.top5), "list")
+
+## Get the itemsets as a binary matrix
+as(items(fsets.top5), "matrix")
+
+## Get the itemsets as a sparse matrix, a ngCMatrix from package Matrix.
+## Warning: for efficiency reasons, the ngCMatrix you get is transposed
+as(items(fsets.top5), "ngCMatrix")
+```
+
+## Create rules from the itemsets
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+rules <- ruleInduction(fsets, Income, confidence = .9)
+rules <- sort(rules, by='confidence', decreasing = TRUE)
+topRules <- rules[1:5]
+inspect(topRules)
+library(arulesViz)
+plot(topRules, method="graph")
+```

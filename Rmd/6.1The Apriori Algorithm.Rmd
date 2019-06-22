@@ -1,0 +1,68 @@
+---
+title: "The Apriori Algorithm"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In computer science and data mining, **Apriori** is a classic algorithm for learning association rules. Apriori is designed to operate on databases containing transactions. As is common in association rule mining, given a set of **itemsets**, the algorithm attempts to find subsets which are common to at least a minimum number C of the itemsets.
+Apriori uses a "bottom up" approach, where frequent subsets are extended one item at a time (a step known as candidate generation), and groups of candidates are tested against the data. The algorithm terminates when no further successful extensions are found.
+
+### Implementation
+The R package that implements association rule mining is called arules, and it can be found at <http://cran.r-project.org/web/packages/arules/index.html>.
+In package arules we interface free reference implementations of Apriori and Eclat by Christian Borgelt (Borgelt and Kruse, 2002; Borgelt, 2003)3. The code is called directly from R by the functions apriori() and éclat() and the data objects are directly passed from R to the C code and back without writing to external files. The implementations can mine frequent itemsets, and closed and maximal frequent itemsets. In addition, apriori() can also mine association rules. Installation of the dependencies packages can be performed within the R environment using the function "install.packages(“package name”)". The name of the package in question is “arules”. To use this package you need R environment with version 2.7.0 at least (details how to update R can be found in <http://cran.r-project.org/bin/linux/ubuntu)>.
+
+```{r ap1, message=FALSE, warning=FALSE}
+#install.packages("arules")
+library(arules)
+```
+
+### Reading the data
+Transactions can be read from files in the basket format, with the command **read.transactions**. 
+```{r ap2, message=FALSE, warning=FALSE}
+tr<-read.transactions("Datasets/test.txt",format="basket",sep=",")
+```
+
+One way to visualize the data is inspect(object). For example:
+```{r ap3}
+inspect(tr)
+itemFrequency(tr)
+itemFrequency(tr, type = "abs")
+```
+
+Additionally, you can visually inspect binary incidence matrices, or plot the frequency of items sets:
+```{r ap4, message=FALSE, warning=FALSE}
+image(tr)
+itemFrequencyPlot(tr, support = 0.1)
+length
+```
+
+## Create some rules using Apriori algorithm 
+The function to mine frequent itemsets, association rules or association hyperedges, using the Apriori algorithm:
+
+```{r ap5, message=FALSE, warning=FALSE}
+rules <- apriori(tr, parameter= list(supp=0.5, conf=0.5))
+inspect(rules)
+summary(rules)
+```
+
+## Case study
+```{r ap6, message=FALSE, warning=FALSE}
+data(Groceries)
+tr <- Groceries
+itemFrequencyPlot(tr, support = 0.1)
+itemFrequencyPlot(tr, topN=20, type='absolute')
+rules <- apriori(tr, parameter = list(supp=0.001, conf=0.8))
+rules <- sort(rules, by='confidence', decreasing = TRUE)
+summary(rules)
+topRules <- rules[1:5]
+inspect(topRules)
+library(arulesViz)
+plot(topRules)
+plot(topRules, method="graph")
+plot(topRules, method = "grouped")
+```
+
+
