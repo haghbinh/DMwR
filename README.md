@@ -30,6 +30,9 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
  * [The Eclat Algorithm](https://haghbinh.github.io/DMwR/html/6_Frequent_Patterns/6.2_The_Eclat_Algorithm.html)
  * [Market Basket Analysis](https://haghbinh.github.io/DMwR/html/6_Frequent_Patterns/6.3_Market_Basket_Analysis.html)
 
+## 8. Classification: Basic Concepts
+ * [The Apriori Algorithm](https://haghbinh.github.io/DMwR/html/6_Frequent_Patterns/6.1_The_Apriori_Algorithm.html)
+
 #### Support or Contact
 Having trouble with Pages?  [haghbinh](https://haghbinh.github.com/) or [contact support](haghbinh@gmail.com) and we’ll help you sort it out.
 
