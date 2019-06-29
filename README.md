@@ -23,12 +23,17 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
 ## 4. Data Warehousing and Online Analytical Processing
  * [Group Manipulation](https://haghbinh.github.io/DMwR/html/4_OLAP/4.1_Group_Manipulation.html)
  * [Group Manipulation with dplyr](https://haghbinh.github.io/DMwR/html/4_OLAP/4.2_Faster_Group_Manipulation_with_dplyr.html)
-
 ## 5. Data Cube Technology
 ## 6. Mining Frequent Patterns and Associations
  * [The Apriori Algorithm](https://haghbinh.github.io/DMwR/html/6_Frequent_Patterns/6.1_The_Apriori_Algorithm.html)
  * [The Eclat Algorithm](https://haghbinh.github.io/DMwR/html/6_Frequent_Patterns/6.2_The_Eclat_Algorithm.html)
  * [Market Basket Analysis](https://haghbinh.github.io/DMwR/html/6_Frequent_Patterns/6.3_Market_Basket_Analysis.html)
+## 7. Advanced Pattern Mining 
+## 8. Classification: Basic Concepts
+ * [Decision Tree Using party](https://haghbinh.github.io/DMwR/html/8_Classification_Basic_Concepts/7.1_Decision_tree_using_party.html)
+ * [Decision Tree Using rpart](https://haghbinh.github.io/DMwR/html/8_Classification_Basic_Concepts/7.2_Decision_tree_using_rpart.html)
+ * [Naıve Bayes Classifier](https://haghbinh.github.io/DMwR/html/8_Classification_Basic_Concepts/7.3_naıve_bayes.html)
+ * [Rule-Based Models](https://haghbinh.github.io/DMwR/html/8_Classification_Basic_Concepts/7_4_Rule-Based_Models.html)
 
 #### Support or Contact
 Having trouble with Pages?  [haghbinh](https://haghbinh.github.com/) or [contact support](haghbinh@gmail.com) and we’ll help you sort it out.
