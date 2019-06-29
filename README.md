@@ -31,7 +31,10 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
  * [Market Basket Analysis](https://haghbinh.github.io/DMwR/html/6_Frequent_Patterns/6.3_Market_Basket_Analysis.html)
 
 ## 8. Classification: Basic Concepts
- * [The Apriori Algorithm](https://haghbinh.github.io/DMwR/html/6_Frequent_Patterns/6.1_The_Apriori_Algorithm.html)
+ * [Decision Tree Using party](https://haghbinh.github.io/DMwR/html/8_Classification_Basic_Concepts/7.1_Decision_tree_using_party.html)
+ * [Decision Tree Using rpart](https://haghbinh.github.io/DMwR/html/8_Classification_Basic_Concepts/7.2_Decision_tree_using_rpart.html)
+ * [Naıve Bayes Classifier](https://haghbinh.github.io/DMwR/html/8_Classification_Basic_Concepts/7.3_naıve_bayes.html)
+ * [Rule-Based Models](https://haghbinh.github.io/DMwR/html/8_Classification_Basic_Concepts/7_4_Rule-Based_Models.html)
 
 #### Support or Contact
 Having trouble with Pages?  [haghbinh](https://haghbinh.github.com/) or [contact support](haghbinh@gmail.com) and we’ll help you sort it out.
