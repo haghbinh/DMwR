@@ -1,0 +1,65 @@
+---
+title: "Decision tree using party"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This tutorial is going to show how to use ‘party’ R package to train model using decision tree. We are going to use iris data set.
+```{r message=FALSE, warning=FALSE}
+library(party)
+head(iris)
+```
+
+Following R code snippets explains how to get training and testing sample data set for model training and model validations
+
+```{r message=FALSE, warning=FALSE}
+library(party)
+set.seed(1234) #To get reproducible result
+ind <- sample(2,nrow(iris), replace=TRUE, prob=c(0.7,0.3))
+trainData <- iris[ind==1,]
+testData <- iris[ind==2,]
+```
+
+We then load package party, build a decision tree, and check the prediction result. Function ctree() provides some parameters, such as MinSplit, MinBusket, MaxSurrogate and MaxDepth, to control the training of decision trees. Below we use default settings to build a decision tree.
+
+```{r message=FALSE, warning=FALSE}
+library(party)
+head(iris)
+```
+
+
+```{r message=FALSE, warning=FALSE}
+myFormula <- Species ~ Sepal.Length + Sepal.Width + Petal.Length + Petal.Width
+iris_ctree <- ctree(myFormula, data=trainData)
+```
+
+Following is going to check the prediction on trainData itself
+```{r message=FALSE, warning=FALSE}
+#train_predict <- predict(iris_ctree)
+train_predict <- predict(iris_ctree,trainData,type="response")
+```
+
+Next, create confusion matrix and misclassification errors
+```{r message=FALSE, warning=FALSE}
+table(train_predict,trainData$Species)
+mean(train_predict != trainData$Species) * 100
+```
+
+Let us validate the model on test set
+```{r message=FALSE, warning=FALSE}
+test_predict <- predict(iris_ctree, newdata= testData,type="response")
+table(test_predict, testData$Species)
+mean(test_predict != testData$Species) * 100
+```
+
+We can look into the model and do some plot to better understand the model
+```{r message=FALSE, warning=FALSE}
+print(iris_ctree)
+plot(iris_ctree)
+plot(iris_ctree, type="simple")
+```
