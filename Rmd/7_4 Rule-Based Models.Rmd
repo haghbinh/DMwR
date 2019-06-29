@@ -1,0 +1,71 @@
+---
+title: "Rule-Based Classification"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## The C50 package
+The C50 package contains an interface to the C5.0 classification model. The main two modes for this model are:<br>
+<li> a basic tree-based model<br>
+<li> a rule-based model
+
+The main public resource on this model comes from the [RuleQuest website](http://www.rulequest.com/see5-info.html).
+
+## Rule-Based Models
+C5.0 can create an initial tree model then decompose the tree structure into a set of mutually exclusive rules. These rules can then be pruned and modified into a smaller set of potentially overlapping rules. The rules can be created using the rules option:
+
+### Loading Credit dataset:
+```{r message=FALSE, warning=FALSE}
+credit <- read.csv("Datasets/credit.csv",h=T)
+table(credit$Credit_rating)
+credit$Income <- as.factor(credit$Income)
+credit$Credit_cards <- as.factor(credit$Credit_cards)
+credit$Education <- as.factor(credit$Education)
+credit$Car_loans <- as.factor(credit$Car_loans)
+set.seed(1234) 
+ind <- sample(2,nrow(credit), replace=TRUE, prob=c(0.7,0.3))
+credit$Credit_rating <- as.factor(credit$Credit_rating)
+trainData <- credit[ind==1,]
+testData <- credit[ind==2,]
+```
+
+### Building Model
+```{r message=FALSE, warning=FALSE}
+library(C50)  
+rules <- C5.0(x = trainData[, -1],
+                 y = trainData$Credit_rating,
+                 rules = TRUE)
+rules
+summary(rules)
+```
+
+Note that no pruning was warranted for this model.
+There is no plot method for rule-based models.
+
+## Predictions
+The predict method can be used to get hard class predictions or class probability estimates 
+```{r message=FALSE, warning=FALSE}
+yhat_rb <- predict(rules, newdata = testData)
+# Confusion matrix
+M <- table(testData$Credit_rating, yhat_rb)
+M
+```
+
+### Sensitivity, Recall
+```{r message=FALSE, warning=FALSE}
+diag(prop.table(M,1))
+```
+
+### Precision
+```{r message=FALSE, warning=FALSE}
+diag(prop.table(M,2))
+```
+
+### Accuracy
+```{r message=FALSE, warning=FALSE}
+acc <- mean(testData$Credit_rating == yhat_rb)
+acc
+```
