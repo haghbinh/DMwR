@@ -38,6 +38,7 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
 ## 10. Cluster Analysis: Basic Concepts and Methods
  * [Partitioning Methods(K-means, K-medoid)](https://haghbinh.github.io/DMwR/html/10_Clustering/10_1_Partitioning_Methods.html)
  * [Hierarchical Clustering (Agglomerative, Divisive)](https://haghbinh.github.io/DMwR/html/10_Clustering/10_2_Hierarchical_Clustering.html)
+ * [DBSCAN: density-based clustering](https://haghbinh.github.io/DMwR/html/10_Clustering/10_3__DBSCAN.html)
 
 #### Support or Contact
 Having trouble with Pages?  [haghbinh](https://haghbinh.github.com/) or [contact support](haghbinh@gmail.com) and we’ll help you sort it out.
