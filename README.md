@@ -34,6 +34,10 @@ By: Jiawei Han, Micheline Kamber and Jian Pei
  * [Decision Tree Using rpart](https://haghbinh.github.io/DMwR/html/8_Classification_Basic_Concepts/7.2_Decision_tree_using_rpart.html)
  * [Naıve Bayes Classifier](https://haghbinh.github.io/DMwR/html/8_Classification_Basic_Concepts/7.3_naıve_bayes.html)
  * [Rule-Based Models](https://haghbinh.github.io/DMwR/html/8_Classification_Basic_Concepts/7_4_Rule-Based_Models.html)
+## 9. Classification: Advanced Methods
+## 10. Cluster Analysis: Basic Concepts and Methods
+ * [Partitioning Methods](https://haghbinh.github.io/DMwR/html/10_Clustering/10_1_Partitioning_Methods.html)
+ * [Hierarchical Clustering](https://haghbinh.github.io/DMwR/html/10_Clustering/10_2_Hierarchical_Clustering.html)
 
 #### Support or Contact
 Having trouble with Pages?  [haghbinh](https://haghbinh.github.com/) or [contact support](haghbinh@gmail.com) and we’ll help you sort it out.
