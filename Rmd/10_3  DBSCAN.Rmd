@@ -1,0 +1,33 @@
+---
+title: 'DBSCAN: density-based clustering'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Given such data, k-means algorithm has difficulties for identifying theses clusters with arbitrary shape. To illustrate this situation, the following R code computes K-means algorithm on the dataset multishapes [in factoextra package]. The function fviz_cluster() [in factoextra] is used to visualize the clusters.
+
+```{r message=FALSE, warning=FALSE}
+library(factoextra)
+data("multishapes")
+df <- multishapes[, 1:2]
+set.seed(123)
+km.res <- kmeans(df, 5, nstart = 25)
+fviz_cluster(km.res, df, geom = "point")
+```
+
+## R functions for DBSCAN
+The function **dbscan()** [in **fpc** package] or **dbscan()** [in **dbscan** package] can be used.
+
+```{r message=FALSE, warning=FALSE}
+library(dbscan)
+res.db0 <- dbscan(df, eps = 0.4, minPts = 5)
+fviz_cluster(res.db0, df, geom = "point")
+
+res.db <- dbscan(df, eps = 0.15, minPts = 5)
+fviz_cluster(res.db, df, geom = "point")
+
+table(res.db$cluster)
+```
