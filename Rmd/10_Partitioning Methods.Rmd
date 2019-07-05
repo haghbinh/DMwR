@@ -1,0 +1,133 @@
+---
+title: 'Cluster Analysis: Partitioning Methods'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## K-means Clustering
+K-mean is, without doubt, the most popular clustering method. Researchers released the algorithm decades ago, and lots of improvements have been done to k-means.
+
+The algorithm tries to find groups by minimizing the distance between the observations, called local optimal solutions. The distances are measured based on the coordinates of the observations. 
+
+### Importing data
+We will use the Prices of Personal Computers dataset to perform our clustering analysis. This dataset contains 6259 observations and 10 features. The dataset observes the price from 1993 to 1995 of 486 personal computers in the US. The variables are price, speed, ram, screen, cd among other.
+```{r message=FALSE, warning=FALSE}
+library(dplyr)
+D <-read.csv("Datasets/Computers.csv",h=T)
+df <- D %>%  select(-c(X, cd, multi, premium))
+head(df)
+```
+
+
+```{r message=FALSE, warning=FALSE}
+rescale_df <- df %>%
+    mutate(price_scal = scale(price),
+           hd_scal = scale(hd),
+           ram_scal = scale(ram),
+           screen_scal = scale(screen),
+           ads_scal = scale(ads),
+           trend_scal = scale(trend)) %>%
+    select(-c(price, speed, hd, ram, screen, ads, trend))
+```
+
+You rescale the variables with the scale() function of the dplyr library. The transformation reduces the impact of outliers and allows to compare a sole observation against the mean. If a standardized value (or z-score) is high, you can be confident that this observation is indeed above the mean (a large z-score implies that this point is far away from the mean in term of standard deviation. A z-score of two indicates the value is 2 standard deviations away from the mean. Note, the z-score follows a Gaussian distribution and is symmetrical around the mean.
+```{r message=FALSE, warning=FALSE}
+km <- kmeans(rescale_df, 5)
+# matrix of cluster centres
+km$centers
+# A vector of integers (from 1:k) indicating the cluster to which each point is allocated.
+km$cluster[1:30]
+# The total sum of squares.
+km$totss
+# Vector of within-cluster sum of squares, one component per cluster.
+km$withinss
+# Total within-cluster sum of squares, i.e. sum(withinss).
+km$tot.withinss
+# The between-cluster sum of squares, i.e. totss-tot.withinss.
+km$betweenss
+```
+
+### Optimal k
+One technique to choose the best k is called the **elbow method**. This method uses within-group homogeneity or within-group heterogeneity to evaluate the variability. In other words, you are interested in the percentage of the variance explained by each cluster. You can expect the **variability** to increase with the number of clusters, alternatively, **heterogeneity** decreases. Our challenge is to find the k that is beyond the diminishing returns. Adding a new cluster does not improve the variability in the data because very few information is left to explain.
+```{r message=FALSE, warning=FALSE}
+kmean_withinss <- function(k) {
+    cluster <- kmeans(rescale_df, k)
+    return (cluster$tot.withinss)
+}
+kmean_withinss(2)
+# Set maximum cluster 
+max_k <-20 
+# Run algorithm over a range of k 
+wss <- sapply(2:max_k, kmean_withinss)
+# Create a data frame to plot the graph
+elbow <-data.frame(k= 2:max_k, wss)
+```
+
+```{r message=FALSE, warning=FALSE}
+library(plotly)
+p <- elbow %>% ggplot(aes(x=k, y=wss)) +
+  geom_line() +
+  geom_point(size=3,color="mediumvioletred")
+
+p <- ggplotly(p)
+p
+```
+
+## Examining the cluster
+```{r message=FALSE, warning=FALSE}
+km_2 <-kmeans(rescale_df, 7)
+km_2$size		
+center <-km_2$centers
+```
+
+## Visualize
+You can create a heat map to help us highlight the difference between categories.
+```{r message=FALSE, warning=FALSE}
+library(plotly)
+library(reshape2)
+center_df <- center %>%
+  melt(c("Cluster","Attributes")) %>%
+  ggplot(aes(Attributes,Cluster, fill = value)) +
+  geom_tile()+ scale_fill_gradient2(low = "navy", mid = "white", high = "mediumvioletred")
+center_df <- ggplotly(center_df)
+center_df
+```
+
+## K-medoid Clustering
+```{r message=FALSE, warning=FALSE}
+library(cluster)
+library(dplyr)
+library(reshape2)
+library(plotly)
+```
+
+```{r message=FALSE, warning=FALSE}
+credit <- read.csv("Datasets/credit.csv",h=T)
+credit$Income <- as.factor(credit$Income)
+credit$Credit_cards <- as.factor(credit$Credit_cards)
+credit$Education <- as.factor(credit$Education)
+credit$Car_loans <- as.factor(credit$Car_loans)
+D <- credit %>% select(-Credit_rating)
+D_mat <- daisy(D,metric = "gower")
+```
+
+```{r message=FALSE, warning=FALSE}
+kmed <- pam(D_mat,2,diss=T)
+kmed$medoids
+credit[kmed$medoids,]
+M <- data.frame(table(kmed$clustering,credit$Credit_rating))
+names(M)[1:2] <- c("cluster","Credit_rating")
+M
+```
+
+```{r message=FALSE, warning=FALSE}
+p2 <- M %>%
+  ggplot(aes(x = cluster,y= Freq,fill=Credit_rating)) + 
+  geom_bar(stat="identity", position = position_dodge2())
+
+p2 <- ggplotly(p2)
+p2
+```
