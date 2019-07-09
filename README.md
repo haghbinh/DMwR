@@ -4,7 +4,7 @@ Supported files and codes for the course
 May 2019 Shiraz<br />
 You can use the [This website](https://haghbinh.github.io/DMwR) to preview the content files.
 </div>
-<img src="images/dis1.png" alt="Diffrent perspective of objects." width="500" height="600">
+<img src="images/IMG-20190707-WA0027.jpg" alt="Diffrent perspective of objects." width="500" height="600">
 </div>
 
 ## Reference:
