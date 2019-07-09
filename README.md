@@ -3,6 +3,10 @@ Supported files and codes for the course
 ## By: Hossein Haghbin
 May 2019 Shiraz<br />
 You can use the [This website](https://haghbinh.github.io/DMwR) to preview the content files.
+</div>
+<img src="images/dis1.png" alt="Diffrent perspective of objects." width="500" height="600">
+</div>
+
 ## Reference:
 ### Data Mining Concepts and Techniques
 By: Jiawei Han, Micheline Kamber and Jian Pei
