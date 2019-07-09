@@ -1,11 +1,11 @@
 Supported files and codes for the course
 # Data Mining With R
 ## By: Hossein Haghbin
-May 2019 Shiraz<br />
-You can use the [This website](https://haghbinh.github.io/DMwR) to preview the content files.
-</div>
+### May 2019 Shiraz<br />
+### You can use the [This website](https://haghbinh.github.io/DMwR) to preview the content files.
+
 <img src="images/IMG-20190707-WA0027.jpg" alt="Diffrent perspective of objects." width="1024" height="423">
-</div>
+
 
 ## Reference:
 ### Data Mining Concepts and Techniques
